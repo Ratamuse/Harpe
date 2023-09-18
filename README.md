@@ -31,8 +31,9 @@
 - 1x Boîte de jonction IP55 minimum 115x115x60mm
 - 2x tasseau lourd acier inoxydable, B-Type rainure 6, M5
 - 2x Vis DIN 912 M5x12
-- Module haute tension 4.2v --> 1200v
-- Convertisseur de tension 12V --> 4.2V
+- 1x Module haute tension 4.2v --> 1200v
+- 1x Convertisseur de tension 12V --> 4.2V
+- 2x connecteur WAGO 2 fils
 - Câble électrique 2x1.5mm2
 - Fer à braser et fil de soudure
 - Scotch isolant
@@ -46,7 +47,12 @@
 - 4x Vis DIN 912 M5x12
 - 2x grille à reine Nicot Dadant 10C
 - 10x collier de serrage
-- 
+
+## Option panneau solaire
+- 1x panneau solaire 10W
+- 1x chargeur solaire PWM ou mieu MPPT
+
+
 
 
 
