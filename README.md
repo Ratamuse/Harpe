@@ -45,10 +45,15 @@
 
 **Impression 3D**
 - 2x flasques
+
+**Fixation:**
 - 4x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
 - 4x Vis DIN 912 M5x12
+
+**Divers**
 - 2x grilles à reine Nicot Dadant 10C
 - 10x colliers de serrage
+- 2x planches 610x200x3mm (bois, PVC, bakélite....) 
 
 ## Option panneau solaire
 - 1x panneau solaire 10W
