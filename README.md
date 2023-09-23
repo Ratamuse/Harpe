@@ -6,11 +6,11 @@
 
 **Profilés aluminium extrudé 2020 B-Type rainure 6**
 - 2x 1050mm
-- 2x750mm
-- 1x660mm
+- 2x 750mm
+- 1x 660mm
 
 **Equerre égale 20x20x2mm**
-- 1x610mm
+- 1x 610mm
 
 **Fixation:**
 - 6x Équerres interne 20 B-Type rainure 6, M5
