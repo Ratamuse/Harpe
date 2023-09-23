@@ -60,7 +60,7 @@
 
 **[Kit permettant de construire trois harpes (optimisation des frais de port)](https://www.motedis.fr/shop/create_offers_kit.php?oID=807542)**
 
-Cette harpe vous plait et est efficace. Payez moi un café! ;-) [PAYPAL](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR)
+Cette harpe vous plait et est efficace. Payez moi un café! ;-) [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR)
 
 
 
