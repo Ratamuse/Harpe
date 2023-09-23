@@ -1,5 +1,7 @@
 ## Harpe anti frelons à pattes jaunes
 
+![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe1.JPG)
+
 # Harpe
 
 **Profilés aluminium extrudé 2020 B-Type rainure 6**
