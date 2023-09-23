@@ -1,8 +1,8 @@
-## Harpe anti frelons à pattes jaunes
+# Harpe anti frelons à pattes jaunes
 
 ![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe1.JPG)
 
-# Harpe
+## Harpe
 
 **Profilés aluminium extrudé 2020 B-Type rainure 6**
 - 2x 1050mm
@@ -41,7 +41,7 @@
 - Scotch isolant
 - Batterie de voiture
 
-# Bac de récupération
+## Bac de récupération
 
 **Impression 3D**
 - 2x flasques
