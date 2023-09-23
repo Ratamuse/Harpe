@@ -2,38 +2,38 @@
 
 # Harpe
 
-** Profilé aluminium extrudé 2020 B-Type rainure 6
+**Profilés aluminium extrudé 2020 B-Type rainure 6**
 - 2x 1050mm
 - 2x750mm
 - 1x660mm
 
-** Equerre égale 20x20x2mm
+**Equerre égale 20x20x2mm**
 - 1x610mm
 
-** Fixation:
-- 6x Équerre interne 20 B-Type rainure 6, M5
-- 2x tasseau lourd acier inoxydable, B-Type rainure 6, M5
+**Fixation:**
+- 6x Équerres interne 20 B-Type rainure 6, M5
+- 2x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
 - 2x Vis DIN 912 M5x12
 
-** Impression 3D:
-- 2x support équerre égale
-- 2x capuchon haut
-- 4x capuchon bas
-- 6x coulisseau circuit imprimé
+**Impression 3D:**
+- 2x supports équerre égale
+- 2x capuchons haut
+- 4x capuchons bas
+- 6x coulisseaux circuit imprimé
 
-** Partie fils
+**Partie fils**
 - 1x PCB 600m 24 trous
-- 24x ressort d'extension 5x10x0.5mm
-- 24x Embout aiguille distributeur 18G
+- 24x ressorts d'extension 5x10x0.5mm
+- 24x Embouts aiguille distributeur 18G
 - 1x Bobine de fil inox 0.3mm (fil à filer les cadres)
 
-** Partie électrique
+**Partie électrique**
 - 1x Boîte de jonction IP55 minimum 115x115x60mm
-- 2x tasseau lourd acier inoxydable, B-Type rainure 6, M5
+- 2x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
 - 2x Vis DIN 912 M5x12
 - 1x Module haute tension 4.2v --> 1200v
 - 1x Convertisseur de tension 12V --> 4.2V
-- 2x connecteur WAGO 2 fils
+- 2x connecteurs WAGO 2 fils
 - Câble électrique 2x1.5mm2
 - Fer à braser et fil de soudure
 - Scotch isolant
@@ -41,12 +41,12 @@
 
 # Bac de récupération
 
-** Impression 3D
-- 2x flasque
-- 4x tasseau lourd acier inoxydable, B-Type rainure 6, M5
+**Impression 3D**
+- 2x flasques
+- 4x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
 - 4x Vis DIN 912 M5x12
-- 2x grille à reine Nicot Dadant 10C
-- 10x collier de serrage
+- 2x grilles à reine Nicot Dadant 10C
+- 10x colliers de serrage
 
 ## Option panneau solaire
 - 1x panneau solaire 10W
