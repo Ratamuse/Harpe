@@ -54,11 +54,11 @@
 - 1x panneau solaire 10W
 - 1x chargeur solaire PWM ou mieu MPPT
 
-# Kit de profilés aluminium et visseries disponible en achat sur le site Motedis.fr en cliquant sur le liens suivants:
+## Kit de profilés aluminium et visseries disponible en achat sur le site Motedis.fr en cliquant sur le liens suivants:
 
 **[Kit permettant de construire une harpe](https://www.motedis.fr/shop/create_offers_kit.php?oID=807541)**
 
-**[Kit permettant de construire trois harpe](https://www.motedis.fr/shop/create_offers_kit.php?oID=807542)**
+**[Kit permettant de construire trois harpes (optimisation des frais de port)](https://www.motedis.fr/shop/create_offers_kit.php?oID=807542)**
 
 Cette harpe vous plait et est efficace. Payez moi un café! ;-) [PAYPAL](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR)
 
