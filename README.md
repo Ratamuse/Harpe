@@ -65,6 +65,8 @@
 
 **[Kit permettant de construire trois harpes (optimisation des frais de port)](https://www.motedis.fr/shop/create_offers_kit.php?oID=807588)**
 
+Vous restez libre d'enlever du panier l'item "Idea fee". Cela est proposé par le site pour rénumérer la personne qui à préparé le kit. Il existe d'autres sites pour commander des profilés, je ne suis pas affilié et n'ai aucun intéret avec cette société. 
+
 **[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR) Cette harpe vous plait et est efficace. Payez moi un café! ;-) [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR)**
 
 
