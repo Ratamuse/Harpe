@@ -1,6 +1,6 @@
 # Harpe anti frelons à pattes jaunes
 
-![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe1.JPG)
+![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe8.JPG)
 
 ## Harpe
 
@@ -61,9 +61,9 @@
 
 ## Kit (seulement profilés aluminium et visserie) disponible en achat sur le site Motedis.fr en cliquant sur les liens suivants:
 
-**[Kit permettant de construire une harpe](https://www.motedis.fr/shop/create_offers_kit.php?oID=807541)**
+**[Kit permettant de construire une harpe](https://www.motedis.fr/shop/create_offers_kit.php?oID=807587)**
 
-**[Kit permettant de construire trois harpes (optimisation des frais de port)](https://www.motedis.fr/shop/create_offers_kit.php?oID=807542)**
+**[Kit permettant de construire trois harpes (optimisation des frais de port)](https://www.motedis.fr/shop/create_offers_kit.php?oID=807588)**
 
 **[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR) Cette harpe vous plait et est efficace. Payez moi un café! ;-) [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR)**
 
