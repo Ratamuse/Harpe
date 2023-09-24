@@ -57,7 +57,7 @@
 
 ## Option panneau solaire
 - 1x panneau solaire 10W
-- 1x chargeur solaire PWM ou mieu MPPT
+- 1x chargeur solaire PWM ou mieux MPPT
 
 ## Kit (seulement profilés aluminium et visserie) disponible en achat sur le site Motedis.fr en cliquant sur les liens suivants:
 
