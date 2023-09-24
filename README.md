@@ -24,7 +24,7 @@
 - 6x coulisseaux circuit imprimé
 
 **Partie fils**
-- 1x PCB 600m 24 trous
+- 1x PCB 600mm 24 trous
 - 24x ressorts d'extension 5x10x0.5mm
 - 24x Embouts aiguille distributeur 18G
 - 1x Bobine de fil inox 0.3mm (fil à filer les cadres)
@@ -39,7 +39,7 @@
 - Câble électrique 2x1.5mm2
 - Fer à braser et fil de soudure
 - Scotch isolant
-- Batterie de voiture
+- Batterie 12 volts
 
 ## Bac de récupération
 
