@@ -32,7 +32,7 @@
 **Partie électrique**
 - 1x Boîte de jonction IP55 minimum 115x115x60mm
 - 2x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
-- 2x Vis DIN 912 M5x12
+- 2x Vis DIN 912 M5x6
 - 1x Module haute tension 4.2v --> 1200v
 - 1x Convertisseur de tension 12V --> 4.2V
 - 2x connecteurs WAGO 2 fils
