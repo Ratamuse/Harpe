@@ -1,5 +1,10 @@
 ## Harpe
 
+
+![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Plan%20harpe.pdf)
+
+
+
 **Profilés aluminium extrudé 2020 B-Type rainure 6**
 - 2x 1050mm
 - 2x 750mm
@@ -63,7 +68,7 @@
 
 Vous restez libre d'enlever du panier l'item "Idea fee". Cela est proposé par le site pour rénumérer la personne qui à préparé le kit. Il existe d'autres sites pour commander des profilés, je ne suis pas affilié et n'ai aucun intéret avec cette société. 
 
-**[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR) Cette harpe vous plait et est efficace. Payez moi un café! ;-) [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR)**
+
 
 
 
