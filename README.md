@@ -9,7 +9,7 @@ Ayant eu des soucis de cours circuits par le passé, j'ai ajouté un microntrole
 
 Vous trouverez ci dessous les liens pour:
 
-- [Liste du materiel]( https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Materiel.md)
+- [Liste du materiel](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Materiel/Materiel.md)
 - [Fichier .STL pour impression 3D](https://github.com/Ratamuse/Harpe/tree/main/Harpe%20ruches/Fichiers%203d/harpe%20alu)
 - [Aide au montage](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Fichiers%203d/harpe%20alu/Construction.md)
 - [Fichiers nécessaires pour fabriquer le circuit imprimé](https://github.com/Ratamuse/Harpe/tree/main/Harpe%20ruches/Fichier%20Kicad)
