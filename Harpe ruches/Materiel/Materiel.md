@@ -1,7 +1,7 @@
 ## Harpe
 
 
-![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Plan%20harpe.pdf)
+![Dimensions](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Plan%20harpe.pdf)
 
 
 
