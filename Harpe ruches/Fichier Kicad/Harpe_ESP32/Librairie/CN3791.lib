@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CN3791
+#/2172918/187463/2.49/10/3/Integrated Circuit
+DEF CN3791 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "CN3791" 1050 200 50 H V L CNN
+F2 "SOP100P600X175-10N" 1050 100 50 H I L CNN
+F3 "http://www.consonance-elec.com/pdf/datasheet/DSE-CN3791.pdf" 1050 0 50 H I L CNN
+F4 "ic" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "Consonance" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "CN3791" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VG 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X ~CHRG 3 0 -200 200 R 50 50 0 0 P
+X ~DONE 4 0 -300 200 R 50 50 0 0 P
+X COM 5 0 -400 200 R 50 50 0 0 P
+X DRV 10 1200 0 200 L 50 50 0 0 P
+X VCC 9 1200 -100 200 L 50 50 0 0 P
+X CSP 8 1200 -200 200 L 50 50 0 0 P
+X BAT 7 1200 -300 200 L 50 50 0 0 P
+X MPPT 6 1200 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

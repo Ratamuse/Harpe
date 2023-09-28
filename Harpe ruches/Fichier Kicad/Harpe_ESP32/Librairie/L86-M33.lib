@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model L86-M33
+#/1468183/187463/2.47/12/4/Integrated Circuit
+DEF L86-M33 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "L86-M33" 1250 200 50 H V L CNN
+F2 "L80-M39" 1250 100 50 H I L CNN
+F3 "https://docs-emea.rs-online.com/webdocs/147d/0900766b8147dbfb.pdf" 1250 0 50 H I L CNN
+F4 "GPS/GLONASS receiver + antenna pack of 1" 1250 -100 50 H I L CNN "Description"
+F5 "" 1250 -200 50 H I L CNN "Height"
+F6 "Quectel" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "L86-M33" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "L86-M33" 1250 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/l86-m33/quectel-wireless-solutions-co-ltd" 1250 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 1250 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 1250 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X RXD1 1 1400 -500 200 L 50 50 0 0 P
+X TXD1 2 1400 -400 200 L 50 50 0 0 P
+X GND_1 3 1400 -300 200 L 50 50 0 0 P
+X VCC 4 1400 -200 200 L 50 50 0 0 P
+X V_BCKP 5 1400 -100 200 L 50 50 0 0 P
+X 1PPS 6 1400 0 200 L 50 50 0 0 P
+X FORCE_ON 7 0 0 200 R 50 50 0 0 P
+X AADET_N 8 0 -100 200 R 50 50 0 0 P
+X NC 9 0 -200 200 R 50 50 0 0 N
+X RESET 10 0 -300 200 R 50 50 0 0 P
+X EX_ANT 11 0 -400 200 R 50 50 0 0 P
+X GND_2 12 0 -500 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

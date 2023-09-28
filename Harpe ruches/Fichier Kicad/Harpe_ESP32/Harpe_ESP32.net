@@ -1,0 +1,5306 @@
+(export 
+  (version D) 
+  (design 
+    (source C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32\TestboardV2.3.sch) 
+    (date "12/12/2021 12:46:17") 
+    (tool "Eeschema (5.1.10)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title "Testboard V2.3") 
+        (company Ratamuse) 
+        (rev V0.2) 
+        (date 2021-12-11) 
+        (source Harpe_ESP32.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "")))) 
+    (sheet 
+      (number 2) 
+      (name /TestboardV2.3a/) 
+      (tstamps /6011445D/) 
+      (title_block 
+        (title TestboardV2.3a) 
+        (company) 
+        (rev) 
+        (date 2021-12-11) 
+        (source TestboardV2.3a.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value "")))) 
+    (sheet 
+      (number 3) 
+      (name /TestboardV2.3b/) 
+      (tstamps /609E7AF1/) 
+      (title_block 
+        (title "Testboard V2.3b") 
+        (company) 
+        (rev) 
+        (date 2021-12-11) 
+        (source TestboardV2.3b.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref R12) 
+      (value 22.1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F616393)) 
+    (comp 
+      (ref R13) 
+      (value 47.5k) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F616D03)) 
+    (comp 
+      (ref Q1) 
+      (value UMH3N) 
+      (footprint Package_TO_SOT_SMD:SOT-363_SC-70-6) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-UMH3N_C62892.pdf) 
+      (fields 
+        (field 
+          (name Description) "2 NPN pre-biased (Dual) 100mA 50V SC-70-6(SOT-363) Digital Transistors RoHS") 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) "Changjiang Electronics Tech (CJ)") 
+        (field 
+          (name Manufacturer_Part_Number) UMH3N)) 
+      (libsource 
+        (lib UMH3N) 
+        (part UMH3N) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F621C4B)) 
+    (comp 
+      (ref C9) 
+      (value 0.1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F6315DF)) 
+    (comp 
+      (ref C2) 
+      (value 0.1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F64E122)) 
+    (comp 
+      (ref C1) 
+      (value 22µF) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F64E13D)) 
+    (comp 
+      (ref R1) 
+      (value 10K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F6611A6)) 
+    (comp 
+      (ref C3) 
+      (value 22µF) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F66194B)) 
+    (comp 
+      (ref U4) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F683148)) 
+    (comp 
+      (ref U5) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F68DD66)) 
+    (comp 
+      (ref U6) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F691D15)) 
+    (comp 
+      (ref U7) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F691D2C)) 
+    (comp 
+      (ref U8) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F69F168)) 
+    (comp 
+      (ref U9) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F69F17E)) 
+    (comp 
+      (ref U10) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F69F194)) 
+    (comp 
+      (ref U11) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F69F1AA)) 
+    (comp 
+      (ref R4) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F75D14B)) 
+    (comp 
+      (ref R5) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F75D141)) 
+    (comp 
+      (ref R8) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F76A1B9)) 
+    (comp 
+      (ref R6) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F76A1CF)) 
+    (comp 
+      (ref R7) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F76A1D9)) 
+    (comp 
+      (ref R9) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F7767CC)) 
+    (comp 
+      (ref J3) 
+      (value Conn_01x04_MountingPin) 
+      (footprint Empreintes:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal_ratamuse) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic_MountingPin) 
+        (part Conn_01x04_MountingPin) 
+        (description "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F86E38B)) 
+    (comp 
+      (ref J5) 
+      (value Conn_01x04_MountingPin) 
+      (footprint Empreintes:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal_ratamuse) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic_MountingPin) 
+        (part Conn_01x04_MountingPin) 
+        (description "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F88602C)) 
+    (comp 
+      (ref J6) 
+      (value Conn_01x04_MountingPin) 
+      (footprint Empreintes:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal_ratamuse) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic_MountingPin) 
+        (part Conn_01x04_MountingPin) 
+        (description "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F894586)) 
+    (comp 
+      (ref R11) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F7767B8)) 
+    (comp 
+      (ref U12) 
+      (value CP2102N-A02-GQFN24) 
+      (footprint Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm) 
+      (datasheet https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf) 
+      (libsource 
+        (lib Interface_USB) 
+        (part CP2102N-A01-GQFN24) 
+        (description "USB to UART master bridge, QFN-24")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F6010DC)) 
+    (comp 
+      (ref R10) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F7767AE)) 
+    (comp 
+      (ref U1) 
+      (value ESP32-WROOM-32D) 
+      (footprint Empreintes:ESP32WROOM32EM113EH2800PH3Q0) 
+      (datasheet https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf) 
+      (libsource 
+        (lib RF_Module) 
+        (part ESP32-WROOM-32D) 
+        (description "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F6443E3)) 
+    (comp 
+      (ref SW1) 
+      (value SW_Push) 
+      (footprint Empreintes:PTS636SL43SMTRLFS) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push) 
+        (description "Push button switch, generic, two pins")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F5702DE)) 
+    (comp 
+      (ref FID1) 
+      (value Fiducial) 
+      (footprint Fiducial:Fiducial_1.5mm_Mask3mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part Fiducial) 
+        (description "Fiducial Marker")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F76D7B9)) 
+    (comp 
+      (ref FID2) 
+      (value Fiducial) 
+      (footprint Fiducial:Fiducial_1.5mm_Mask3mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part Fiducial) 
+        (description "Fiducial Marker")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F76EC74)) 
+    (comp 
+      (ref FID3) 
+      (value Fiducial) 
+      (footprint Fiducial:Fiducial_1.5mm_Mask3mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part Fiducial) 
+        (description "Fiducial Marker")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F76F874)) 
+    (comp 
+      (ref FID4) 
+      (value Fiducial) 
+      (footprint Fiducial:Fiducial_1.5mm_Mask3mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part Fiducial) 
+        (description "Fiducial Marker")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F76FD9E)) 
+    (comp 
+      (ref JP3) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8C7734)) 
+    (comp 
+      (ref JP4) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8C86F3)) 
+    (comp 
+      (ref JP6) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9E625C)) 
+    (comp 
+      (ref JP5) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA0631B)) 
+    (comp 
+      (ref JP7) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA265EC)) 
+    (comp 
+      (ref JP8) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA36A46)) 
+    (comp 
+      (ref JP9) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FC00950)) 
+    (comp 
+      (ref JP10) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FC1351E)) 
+    (comp 
+      (ref JP11) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FD4E0E5)) 
+    (comp 
+      (ref JP12) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FD78871)) 
+    (comp 
+      (ref JP15) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FD8E7CD)) 
+    (comp 
+      (ref JP16) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDA4506)) 
+    (comp 
+      (ref JP17) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDCDC2C)) 
+    (comp 
+      (ref JP20) 
+      (value SolderJumper_3_Open) 
+      (footprint Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_3_Open) 
+        (description "Solder Jumper, 3-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FE2510B)) 
+    (comp 
+      (ref JP19) 
+      (value SolderJumper_3_Open) 
+      (footprint Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_3_Open) 
+        (description "Solder Jumper, 3-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FEED8DC)) 
+    (comp 
+      (ref JP18) 
+      (value SolderJumper_3_Open) 
+      (footprint Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_3_Open) 
+        (description "Solder Jumper, 3-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FFB195A)) 
+    (comp 
+      (ref JP14) 
+      (value SolderJumper_3_Open) 
+      (footprint Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_3_Open) 
+        (description "Solder Jumper, 3-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FFC9E65)) 
+    (comp 
+      (ref J9) 
+      (value Conn_01x03) 
+      (footprint Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F978EBB)) 
+    (comp 
+      (ref JP13) 
+      (value SolderJumper_3_Open) 
+      (footprint Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_3_Open) 
+        (description "Solder Jumper, 3-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FFE1C98)) 
+    (comp 
+      (ref JP2) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8BAB20)) 
+    (comp 
+      (ref JP1) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F7D30B6)) 
+    (comp 
+      (ref J2) 
+      (value Conn_01x04_MountingPin) 
+      (footprint Empreintes:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal_ratamuse) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic_MountingPin) 
+        (part Conn_01x04_MountingPin) 
+        (description "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F84A6C2)) 
+    (comp 
+      (ref R3) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F74D494)) 
+    (comp 
+      (ref R2) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F673998)) 
+    (comp 
+      (ref U3) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F6C8DED)) 
+    (comp 
+      (ref U2) 
+      (value PC817) 
+      (footprint Empreintes:SOP254P960X420-4N) 
+      (datasheet http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (libsource 
+        (lib Isolator) 
+        (part PC817) 
+        (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F6C8DD6)) 
+    (comp 
+      (ref D3) 
+      (value SP1003-01DTG) 
+      (footprint Empreintes:SODFL1406X65N) 
+      (datasheet https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1003_datasheet.pdf.pdf) 
+      (fields 
+        (field 
+          (name "Arrow Part Number") SP1003-01DTG) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/sp1003-01dtg/littelfuse) 
+        (field 
+          (name Description) "1 Ch 30KV 30pF TVS Diode Array SOD-723") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) LITTELFUSE) 
+        (field 
+          (name Manufacturer_Part_Number) SP1003-01DTG) 
+        (field 
+          (name "Mouser Part Number") 576-SP1003-01DTG) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Littelfuse/SP1003-01DTG?qs=Xb8IjHhkxj76JbYOs4IgRA%3D%3D)) 
+      (libsource 
+        (lib SP1003-01DTG) 
+        (part SP1003-01DTG) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA2346D)) 
+    (comp 
+      (ref D2) 
+      (value SP1003-01DTG) 
+      (footprint Empreintes:SODFL1406X65N) 
+      (datasheet https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1003_datasheet.pdf.pdf) 
+      (fields 
+        (field 
+          (name "Arrow Part Number") SP1003-01DTG) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/sp1003-01dtg/littelfuse) 
+        (field 
+          (name Description) "1 Ch 30KV 30pF TVS Diode Array SOD-723") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) LITTELFUSE) 
+        (field 
+          (name Manufacturer_Part_Number) SP1003-01DTG) 
+        (field 
+          (name "Mouser Part Number") 576-SP1003-01DTG) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Littelfuse/SP1003-01DTG?qs=Xb8IjHhkxj76JbYOs4IgRA%3D%3D)) 
+      (libsource 
+        (lib SP1003-01DTG) 
+        (part SP1003-01DTG) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FB1DFC7)) 
+    (comp 
+      (ref D1) 
+      (value SP1003-01DTG) 
+      (footprint Empreintes:SODFL1406X65N) 
+      (datasheet https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1003_datasheet.pdf.pdf) 
+      (fields 
+        (field 
+          (name "Arrow Part Number") SP1003-01DTG) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/sp1003-01dtg/littelfuse) 
+        (field 
+          (name Description) "1 Ch 30KV 30pF TVS Diode Array SOD-723") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) LITTELFUSE) 
+        (field 
+          (name Manufacturer_Part_Number) SP1003-01DTG) 
+        (field 
+          (name "Mouser Part Number") 576-SP1003-01DTG) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Littelfuse/SP1003-01DTG?qs=Xb8IjHhkxj76JbYOs4IgRA%3D%3D)) 
+      (libsource 
+        (lib SP1003-01DTG) 
+        (part SP1003-01DTG) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FB1F046)) 
+    (comp 
+      (ref D6) 
+      (value LED) 
+      (footprint LED_SMD:LED_0603_1608Metric_Castellated) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FC8497A)) 
+    (comp 
+      (ref R21) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FC85B4F)) 
+    (comp 
+      (ref D7) 
+      (value LED) 
+      (footprint LED_SMD:LED_0603_1608Metric_Castellated) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FD575D1)) 
+    (comp 
+      (ref R22) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FD575DB)) 
+    (comp 
+      (ref C6) 
+      (value 4.7µF) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F610EA9)) 
+    (comp 
+      (ref C7) 
+      (value 0.1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F610EB3)) 
+    (comp 
+      (ref R14) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F606A23)) 
+    (comp 
+      (ref J4) 
+      (value Conn_01x04_MountingPin) 
+      (footprint Empreintes:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal_ratamuse) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic_MountingPin) 
+        (part Conn_01x04_MountingPin) 
+        (description "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F879673)) 
+    (comp 
+      (ref J13) 
+      (value "USB_C_Receptacle_USB2.0 USB4105-GF-A ") 
+      (footprint Empreintes:TYPE-C-31-M-12) 
+      (datasheet https://www.usb.org/sites/default/files/documents/usb_type-c.zip) 
+      (libsource 
+        (lib Connector) 
+        (part USB_C_Receptacle_USB2.0) 
+        (description "USB 2.0-only Type-C Receptacle connector")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60D461EF)) 
+    (comp 
+      (ref R33) 
+      (value 5.1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60EABFA9)) 
+    (comp 
+      (ref R34) 
+      (value 5.1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60EACF42)) 
+    (comp 
+      (ref R26) 
+      (value 1M) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60F24EBA)) 
+    (comp 
+      (ref JP21) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 611603B3)) 
+    (comp 
+      (ref D15) 
+      (value "LED Green") 
+      (footprint LED_SMD:LED_0603_1608Metric_Castellated) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6119BB9E)) 
+    (comp 
+      (ref R29) 
+      (value 10K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6119C5BC)) 
+    (comp 
+      (ref R37) 
+      (value 100K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 616E1E53)) 
+    (comp 
+      (ref U13) 
+      (value XC6220B331MR) 
+      (footprint Package_TO_SOT_SMD:SOT-23-5) 
+      (datasheet https://www.torexsemi.com/file/xc6220/XC6220.pdf) 
+      (libsource 
+        (lib XC6220B331MR-G) 
+        (part XC6220B331MR-G) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F625E52)) 
+    (comp 
+      (ref C11) 
+      (value 0.1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F639961)) 
+    (comp 
+      (ref C25) 
+      (value 10µF) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61BFC9D0)) 
+    (comp 
+      (ref C24) 
+      (value 10µF) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61C7827C)) 
+    (comp 
+      (ref R16) 
+      (value 2.2K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60131EC3)) 
+    (comp 
+      (ref R17) 
+      (value 2.2K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60132EF0)) 
+    (comp 
+      (ref J7) 
+      (value Conn_01x04) 
+      (footprint Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x04) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F870DAA)) 
+    (comp 
+      (ref U15) 
+      (value MCP73831-2-OT) 
+      (footprint Package_TO_SOT_SMD:SOT-23-5) 
+      (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf) 
+      (libsource 
+        (lib Battery_Management) 
+        (part MCP73831-2-OT) 
+        (description "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F87ED65)) 
+    (comp 
+      (ref R18) 
+      (value 2K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F880CAC)) 
+    (comp 
+      (ref C17) 
+      (value 4.7µF) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F8816B0)) 
+    (comp 
+      (ref C16) 
+      (value 4.7µF) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F882DB0)) 
+    (comp 
+      (ref J8) 
+      (value Conn_01x02) 
+      (footprint Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F8837C0)) 
+    (comp 
+      (ref D5) 
+      (value LED) 
+      (footprint LED_SMD:LED_0603_1608Metric_Castellated) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F898925)) 
+    (comp 
+      (ref Q2) 
+      (value DMG2301L) 
+      (footprint Package_TO_SOT_SMD:SOT-23) 
+      (datasheet https://www.diodes.com/assets/Datasheets/DMG2301L.pdf) 
+      (libsource 
+        (lib RE1C002UN) 
+        (part DMG2301L) 
+        (description "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F8B8B31)) 
+    (comp 
+      (ref D4) 
+      (value D_Schottky) 
+      (footprint Diode_SMD:D_SOD-323) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D_Schottky) 
+        (description "Schottky diode")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F8CD5EE)) 
+    (comp 
+      (ref R19) 
+      (value 10K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F8D699C)) 
+    (comp 
+      (ref IC2) 
+      (value MAX17048G+) 
+      (footprint Empreintes:SON50P200X200X80-9N-D) 
+      (datasheet https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf) 
+      (fields 
+        (field 
+          (name "Arrow Part Number") MAX17048G+) 
+        (field 
+          (name Description) "3uA 1-Cell/2-Cell Fuel Gauge with ModelGauge, TDFN-8") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) "Maxim Integrated") 
+        (field 
+          (name Manufacturer_Part_Number) MAX17048G+) 
+        (field 
+          (name "Mouser Part Number") 700-MAX17048G+) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX17048G%2b?qs=D7PJwyCwLArjnts0jPerYw%3D%3D)) 
+      (libsource 
+        (lib MAX17048G+) 
+        (part MAX17048G+) 
+        (description "")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F84A15F)) 
+    (comp 
+      (ref C18) 
+      (value 0.1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F874433)) 
+    (comp 
+      (ref JP22) 
+      (value Jumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part Jumper_2_Open) 
+        (description "Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F943E12)) 
+    (comp 
+      (ref R20) 
+      (value 330) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5F89F428)) 
+    (comp 
+      (ref J10) 
+      (value Conn_01x04) 
+      (footprint Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x04) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 5FA337F8)) 
+    (comp 
+      (ref JP23) 
+      (value SolderJumper_3_Open) 
+      (footprint Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_3_Open) 
+        (description "Solder Jumper, 3-pole, open")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 609AC9B6)) 
+    (comp 
+      (ref IC3) 
+      (value LTC2954CTS8-1#TRMPBF) 
+      (footprint Empreintes:SOT65P280X100-8N) 
+      (datasheet http://www.farnell.com/datasheets/1705686.pdf) 
+      (fields 
+        (field 
+          (name "Arrow Part Number") LTC2954CTS8-1#TRMPBF) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/ltc2954cts8-1trmpbf/linear-technology) 
+        (field 
+          (name Description) "Linear Technology LTC2954CTS8-1#TRMPBF, Voltage Controller 1V max., 8-Pin TSOT-23") 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) "Linear Technology") 
+        (field 
+          (name Manufacturer_Part_Number) LTC2954CTS8-1#TRMPBF) 
+        (field 
+          (name "Mouser Part Number") 584-C2954CTS8-1TMPF) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LTC2954CTS8-1TRMPBF?qs=hVkxg5c3xu%2F806wrZ4RpXA%3D%3D)) 
+      (libsource 
+        (lib LTC2954CTS8-1#TRMPBF) 
+        (part LTC2954CTS8-1#TRMPBF) 
+        (description "")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60C46621)) 
+    (comp 
+      (ref SW2) 
+      (value SW_Push) 
+      (footprint Button_Switch_SMD:SW_SPST_B3S-1000) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push) 
+        (description "Push button switch, generic, two pins")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60C46639)) 
+    (comp 
+      (ref C10) 
+      (value 0.150µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60C46641)) 
+    (comp 
+      (ref R15) 
+      (value 10K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60C46653)) 
+    (comp 
+      (ref C8) 
+      (value 0.150µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60C46662)) 
+    (comp 
+      (ref C4) 
+      (value 1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60C46670)) 
+    (comp 
+      (ref C5) 
+      (value 0.1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60C46676)) 
+    (comp 
+      (ref D14) 
+      (value D_Schottky) 
+      (footprint Diode_SMD:D_SOD-323) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D_Schottky) 
+        (description "Schottky diode")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60CB54B3)) 
+    (comp 
+      (ref J12) 
+      (value Conn_01x02) 
+      (footprint Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 60D18E3D)) 
+    (comp 
+      (ref C15) 
+      (value 0.1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 6118E3FD)) 
+    (comp 
+      (ref R36) 
+      (value 5.1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 611946C5)) 
+    (comp 
+      (ref JP24) 
+      (value SolderJumper_2_Open) 
+      (footprint Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part SolderJumper_2_Open) 
+        (description "Solder Jumper, 2-pole, open")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 61782FB8)) 
+    (comp 
+      (ref IC6) 
+      (value SHT41-AD1B-R3) 
+      (footprint Empreintes:SHT41AD1BR3) 
+      (datasheet https://www.mouser.fr/datasheet/2/682/Sensirion_Humidity_Sensors_SHT4x_Datasheet-2001050.pdf) 
+      (fields 
+        (field 
+          (name Description) "Board Mount Humidity Sensors Intermediate Humidity and Temperature Sensor - Bulk") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) Sensirion) 
+        (field 
+          (name Manufacturer_Part_Number) SHT41-AD1B-R3) 
+        (field 
+          (name "Mouser Part Number") 403-SHT41-AD1B-R3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Sensirion/SHT41-AD1B-R3?qs=XAiT9M5g4x9TCtE5W6N3dA%3D%3D)) 
+      (libsource 
+        (lib SHT41-AD1B-R3) 
+        (part SHT41-AD1B-R3) 
+        (description "")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 61B6D9F2)) 
+    (comp 
+      (ref C20) 
+      (value 0.1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3a/) 
+        (tstamps /6011445D/)) 
+      (tstamp 61BA045A)) 
+    (comp 
+      (ref Q3) 
+      (value AO3401A) 
+      (footprint Package_TO_SOT_SMD:SOT-23) 
+      (datasheet http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf) 
+      (libsource 
+        (lib Transistor_FET) 
+        (part AO3401A) 
+        (description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 609E8A25)) 
+    (comp 
+      (ref J1) 
+      (value Conn_01x02) 
+      (footprint Empreintes:SHDR2W90P0X500_1X2_1060X980X1380P) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 609E967C)) 
+    (comp 
+      (ref D9) 
+      (value MBR230LSFT1G) 
+      (footprint Empreintes:SODFL3616X98N) 
+      (datasheet http://www.onsemi.com/pub/Collateral/MBR230LSFT1-D.PDF) 
+      (fields 
+        (field 
+          (name "Arrow Part Number") MBR230LSFT1G) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/mbr230lsft1g/on-semiconductor) 
+        (field 
+          (name Description) "Diode Schottky 30V 2A SOD123FL ON Semiconductor MBR230LSFT1G Schottky Diode, 2A, 30V, 2-Pin SOD-123FL") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) "ON Semiconductor") 
+        (field 
+          (name Manufacturer_Part_Number) MBR230LSFT1G) 
+        (field 
+          (name "Mouser Part Number") 863-MBR230LSFT1G) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MBR230LSFT1G/?qs=Jh7l0IbPjid1ZBeNXVj%2FnA%3D%3D)) 
+      (libsource 
+        (lib MBR230LSFT1G) 
+        (part MBR230LSFT1G) 
+        (description "")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 609EC2A8)) 
+    (comp 
+      (ref IC1) 
+      (value CN3791) 
+      (footprint Empreintes:SOP100P600X175-10N) 
+      (datasheet http://www.consonance-elec.com/pdf/datasheet/DSE-CN3791.pdf) 
+      (fields 
+        (field 
+          (name Description) ic) 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) Consonance) 
+        (field 
+          (name Manufacturer_Part_Number) CN3791)) 
+      (libsource 
+        (lib CN3791) 
+        (part CN3791) 
+        (description "")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 609F191F)) 
+    (comp 
+      (ref C12) 
+      (value 100µF/35V) 
+      (footprint Capacitor_SMD:CP_Elec_6.3x7.7) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP) 
+        (description "Polarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 609F4FFE)) 
+    (comp 
+      (ref C14) 
+      (value 4.7µF/50V) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 609F54EB)) 
+    (comp 
+      (ref R25) 
+      (value 10K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A04868)) 
+    (comp 
+      (ref D11) 
+      (value LED) 
+      (footprint LED_SMD:LED_0603_1608Metric_Castellated) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A06C82)) 
+    (comp 
+      (ref R24) 
+      (value 120) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A09CEE)) 
+    (comp 
+      (ref C19) 
+      (value 220nF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A0BA5F)) 
+    (comp 
+      (ref C21) 
+      (value 0.1µF/50V) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 609F95BF)) 
+    (comp 
+      (ref D10) 
+      (value LED) 
+      (footprint LED_SMD:LED_0603_1608Metric_Castellated) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A0603D)) 
+    (comp 
+      (ref D12) 
+      (value SS34) 
+      (footprint Empreintes:DIOM8059X256N) 
+      (datasheet https://componentsearchengine.com/Datasheets/2/SS34.pdf) 
+      (fields 
+        (field 
+          (name "Arrow Part Number") SS34) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/ss34/on-semiconductor) 
+        (field 
+          (name Description) "ON Semi SS34 SMT Schottky Diode, 40V 3A, 2-Pin DO-214AB") 
+        (field 
+          (name Height) 2) 
+        (field 
+          (name Manufacturer_Name) "ON Semiconductor") 
+        (field 
+          (name Manufacturer_Part_Number) SS34) 
+        (field 
+          (name "Mouser Part Number") 512-SS34) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/SS34?qs=2ONuHmP%2FXzb3ub11UdFfdQ%3D%3D)) 
+      (libsource 
+        (lib SS34) 
+        (part SS34) 
+        (description "")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A15FB1)) 
+    (comp 
+      (ref D13) 
+      (value SS34) 
+      (footprint Empreintes:DIOM8059X256N) 
+      (datasheet https://componentsearchengine.com/Datasheets/2/SS34.pdf) 
+      (fields 
+        (field 
+          (name "Arrow Part Number") SS34) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/ss34/on-semiconductor) 
+        (field 
+          (name Description) "ON Semi SS34 SMT Schottky Diode, 40V 3A, 2-Pin DO-214AB") 
+        (field 
+          (name Height) 2) 
+        (field 
+          (name Manufacturer_Name) "ON Semiconductor") 
+        (field 
+          (name Manufacturer_Part_Number) SS34) 
+        (field 
+          (name "Mouser Part Number") 512-SS34) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/SS34?qs=2ONuHmP%2FXzb3ub11UdFfdQ%3D%3D)) 
+      (libsource 
+        (lib SS34) 
+        (part SS34) 
+        (description "")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A174BD)) 
+    (comp 
+      (ref L1) 
+      (value 82µH/3A) 
+      (footprint Empreintes:INDPM138126X700N) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part L_Core_Iron) 
+        (description "Inductor with iron core")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A1EBDD)) 
+    (comp 
+      (ref R28) 
+      (value 0.24R) 
+      (footprint Resistor_SMD:R_2512_6332Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A47BC9)) 
+    (comp 
+      (ref C22) 
+      (value 10µF) 
+      (footprint Capacitor_SMD:C_0805_2012Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A4C239)) 
+    (comp 
+      (ref R27) 
+      (value 10K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A5CDC8)) 
+    (comp 
+      (ref R31) 
+      (value 100) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A6C949)) 
+    (comp 
+      (ref C27) 
+      (value 0.1µF) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A6D880)) 
+    (comp 
+      (ref R30) 
+      (value 1K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A9FA87)) 
+    (comp 
+      (ref Q4) 
+      (value FS8205) 
+      (footprint Empreintes:FS8205) 
+      (datasheet https://www.ic-fortune.com/upload/Download/FS8205-DS-19_EN.pdf) 
+      (fields 
+        (field 
+          (name Description) "DUAL N-CHANNEL ENHANCEMENT MODE POWER MOFSET") 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) "Fortune Semiconductor Corporation") 
+        (field 
+          (name Manufacturer_Part_Number) FS8205)) 
+      (libsource 
+        (lib FS8205) 
+        (part FS8205) 
+        (description "")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 6091104D)) 
+    (comp 
+      (ref C23) 
+      (value 10µF) 
+      (footprint Capacitor_SMD:CP_Elec_5x5.4) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part CP) 
+        (description "Polarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60A4C243)) 
+    (comp 
+      (ref C13) 
+      (value 470nF/50V) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60C21937)) 
+    (comp 
+      (ref R23) 
+      (value 30K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60C2F5BA)) 
+    (comp 
+      (ref IC4) 
+      (value FS312F-G) 
+      (footprint Empreintes:SOT95P280X145-6N) 
+      (datasheet https://www.ic-fortune.com/upload/Download/FS312F-G-DS-12_EN.pdf) 
+      (fields 
+        (field 
+          (name Description) "One Cell Lithium-ion/Polymer Battery Protection IC") 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) "Fortune Semiconductor Corporation") 
+        (field 
+          (name Manufacturer_Part_Number) FS312F-G)) 
+      (libsource 
+        (lib FS312F-G) 
+        (part FS312F-G) 
+        (description "")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 60C580C3)) 
+    (comp 
+      (ref D8) 
+      (value LED) 
+      (footprint LED_SMD:LED_0603_1608Metric_Castellated) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 610DD8D7)) 
+    (comp 
+      (ref R35) 
+      (value 2K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /TestboardV2.3b/) 
+        (tstamps /609E7AF1/)) 
+      (tstamp 610E549C))) 
+  (libparts 
+    (libpart 
+      (lib Battery_Management) 
+      (part MCP73832-2-OT) 
+      (aliases 
+        (alias MCP73832-5-OT) 
+        (alias MCP73832-4-OT) 
+        (alias MCP73832-3-OT) 
+        (alias MCP73831-2-OT) 
+        (alias MCP73831-5-OT) 
+        (alias MCP73831-4-OT) 
+        (alias MCP73831-3-OT)) 
+      (description "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package") 
+      (docs http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf) 
+      (footprints 
+        (fp SOT?23*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) MCP73832-2-OT) 
+        (field 
+          (name Footprint) Package_TO_SOT_SMD:SOT-23-5)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name STAT) 
+          (type output)) 
+        (pin 
+          (num 2) 
+          (name VSS) 
+          (type power_in)) 
+        (pin 
+          (num 3) 
+          (name VBAT) 
+          (type power_out)) 
+        (pin 
+          (num 4) 
+          (name VDD) 
+          (type power_in)) 
+        (pin 
+          (num 5) 
+          (name PROG) 
+          (type input)))) 
+    (libpart 
+      (lib CN3791) 
+      (part CN3791) 
+      (fields 
+        (field 
+          (name Reference) IC) 
+        (field 
+          (name Value) CN3791) 
+        (field 
+          (name Footprint) SOP100P600X175-10N) 
+        (field 
+          (name Datasheet) http://www.consonance-elec.com/pdf/datasheet/DSE-CN3791.pdf) 
+        (field 
+          (name Description) ic) 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) Consonance) 
+        (field 
+          (name Manufacturer_Part_Number) CN3791)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VG) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name ~CHRG) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name ~DONE) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name COM) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name MPPT) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name BAT) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name CSP) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name VCC) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name DRV) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part USB_C_Receptacle_USB2.0) 
+      (description "USB 2.0-only Type-C Receptacle connector") 
+      (docs https://www.usb.org/sites/default/files/documents/usb_type-c.zip) 
+      (footprints 
+        (fp USB*C*Receptacle*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) USB_C_Receptacle_USB2.0)) 
+      (pins 
+        (pin 
+          (num A1) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num A4) 
+          (name VBUS) 
+          (type passive)) 
+        (pin 
+          (num A5) 
+          (name CC1) 
+          (type BiDi)) 
+        (pin 
+          (num A6) 
+          (name D+) 
+          (type BiDi)) 
+        (pin 
+          (num A7) 
+          (name D-) 
+          (type BiDi)) 
+        (pin 
+          (num A8) 
+          (name SBU1) 
+          (type BiDi)) 
+        (pin 
+          (num A9) 
+          (name VBUS) 
+          (type passive)) 
+        (pin 
+          (num A12) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num B1) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num B4) 
+          (name VBUS) 
+          (type passive)) 
+        (pin 
+          (num B5) 
+          (name CC2) 
+          (type BiDi)) 
+        (pin 
+          (num B6) 
+          (name D+) 
+          (type BiDi)) 
+        (pin 
+          (num B7) 
+          (name D-) 
+          (type BiDi)) 
+        (pin 
+          (num B8) 
+          (name SBU2) 
+          (type BiDi)) 
+        (pin 
+          (num B9) 
+          (name VBUS) 
+          (type passive)) 
+        (pin 
+          (num B12) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num S1) 
+          (name SHIELD) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x02) 
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x02)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x03) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x04) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic_MountingPin) 
+      (part Conn_01x04_MountingPin) 
+      (description "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??-1MP*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04_MountingPin)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num MP) 
+          (name MountPin) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C) 
+      (description "Unpolarized capacitor") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part CP) 
+      (description "Polarized capacitor") 
+      (docs ~) 
+      (footprints 
+        (fp CP_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) CP)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part D_Schottky) 
+      (description "Schottky diode") 
+      (docs ~) 
+      (footprints 
+        (fp TO-???*) 
+        (fp *_Diode_*) 
+        (fp *SingleDiode*) 
+        (fp D_*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) D_Schottky)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part L_Core_Iron) 
+      (description "Inductor with iron core") 
+      (docs ~) 
+      (footprints 
+        (fp Choke_*) 
+        (fp *Coil*) 
+        (fp Inductor_*) 
+        (fp L_*)) 
+      (fields 
+        (field 
+          (name Reference) L) 
+        (field 
+          (name Value) L_Core_Iron)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib FS312F-G) 
+      (part FS312F-G) 
+      (fields 
+        (field 
+          (name Reference) IC) 
+        (field 
+          (name Value) FS312F-G) 
+        (field 
+          (name Footprint) SOT95P280X145-6N) 
+        (field 
+          (name Datasheet) https://www.ic-fortune.com/upload/Download/FS312F-G-DS-12_EN.pdf) 
+        (field 
+          (name Description) "One Cell Lithium-ion/Polymer Battery Protection IC") 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) "Fortune Semiconductor Corporation") 
+        (field 
+          (name Manufacturer_Part_Number) FS312F-G)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name OD) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name CS) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name OC) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name TD) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name VCC) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name GND) 
+          (type passive)))) 
+    (libpart 
+      (lib FS8205) 
+      (part FS8205) 
+      (fields 
+        (field 
+          (name Reference) Q) 
+        (field 
+          (name Value) FS8205) 
+        (field 
+          (name Footprint) FS8205) 
+        (field 
+          (name Datasheet) https://www.ic-fortune.com/upload/Download/FS8205-DS-19_EN.pdf) 
+        (field 
+          (name Description) "DUAL N-CHANNEL ENHANCEMENT MODE POWER MOFSET") 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) "Fortune Semiconductor Corporation") 
+        (field 
+          (name Manufacturer_Part_Number) FS8205)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name S1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name D12_1) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name S2) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name G2) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name D12_2) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name G1) 
+          (type passive)))) 
+    (libpart 
+      (lib Interface_USB) 
+      (part CP2102N-A01-GQFN24) 
+      (description "USB to UART master bridge, QFN-24") 
+      (docs https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf) 
+      (footprints 
+        (fp QFN*4x4mm*P0.5mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) CP2102N-A01-GQFN24) 
+        (field 
+          (name Footprint) Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name RI/CLK) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 3) 
+          (name D+) 
+          (type BiDi)) 
+        (pin 
+          (num 4) 
+          (name D-) 
+          (type BiDi)) 
+        (pin 
+          (num 5) 
+          (name VIO) 
+          (type power_in)) 
+        (pin 
+          (num 6) 
+          (name VDD) 
+          (type power_in)) 
+        (pin 
+          (num 7) 
+          (name REGIN) 
+          (type power_in)) 
+        (pin 
+          (num 8) 
+          (name VBUS) 
+          (type input)) 
+        (pin 
+          (num 9) 
+          (name ~RSTb) 
+          (type input)) 
+        (pin 
+          (num 10) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 11) 
+          (name GPIO.3) 
+          (type BiDi)) 
+        (pin 
+          (num 12) 
+          (name GPIO.2) 
+          (type BiDi)) 
+        (pin 
+          (num 13) 
+          (name GPIO.1) 
+          (type BiDi)) 
+        (pin 
+          (num 14) 
+          (name GPIO.0) 
+          (type BiDi)) 
+        (pin 
+          (num 15) 
+          (name ~SUSPENDb) 
+          (type output)) 
+        (pin 
+          (num 16) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 17) 
+          (name SUSPEND) 
+          (type output)) 
+        (pin 
+          (num 18) 
+          (name CTS) 
+          (type input)) 
+        (pin 
+          (num 19) 
+          (name RTS) 
+          (type output)) 
+        (pin 
+          (num 20) 
+          (name RXD) 
+          (type input)) 
+        (pin 
+          (num 21) 
+          (name TXD) 
+          (type output)) 
+        (pin 
+          (num 22) 
+          (name DSR) 
+          (type input)) 
+        (pin 
+          (num 23) 
+          (name DTR) 
+          (type output)) 
+        (pin 
+          (num 24) 
+          (name DCD) 
+          (type input)) 
+        (pin 
+          (num 25) 
+          (name GND) 
+          (type power_in)))) 
+    (libpart 
+      (lib Isolator) 
+      (part PC817) 
+      (aliases 
+        (alias EL817)) 
+      (description "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4") 
+      (docs http://www.soselectronic.cz/a_info/resource/d/pc817.pdf) 
+      (footprints 
+        (fp DIP*W7.62mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) PC817) 
+        (field 
+          (name Footprint) Package_DIP:DIP-4_W7.62mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Jumper) 
+      (part Jumper_2_Open) 
+      (description "Jumper, 2-pole, open") 
+      (docs ~) 
+      (footprints 
+        (fp Jumper*) 
+        (fp TestPoint*2Pads*) 
+        (fp TestPoint*Bridge*)) 
+      (fields 
+        (field 
+          (name Reference) JP) 
+        (field 
+          (name Value) Jumper_2_Open)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name B) 
+          (type passive)))) 
+    (libpart 
+      (lib Jumper) 
+      (part SolderJumper_2_Open) 
+      (description "Solder Jumper, 2-pole, open") 
+      (docs ~) 
+      (footprints 
+        (fp SolderJumper*Open*)) 
+      (fields 
+        (field 
+          (name Reference) JP) 
+        (field 
+          (name Value) SolderJumper_2_Open)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name B) 
+          (type passive)))) 
+    (libpart 
+      (lib Jumper) 
+      (part SolderJumper_3_Open) 
+      (description "Solder Jumper, 3-pole, open") 
+      (docs ~) 
+      (footprints 
+        (fp SolderJumper*Open*)) 
+      (fields 
+        (field 
+          (name Reference) JP) 
+        (field 
+          (name Value) SolderJumper_3_Open)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name C) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name B) 
+          (type passive)))) 
+    (libpart 
+      (lib LTC2954CTS8-1#TRMPBF) 
+      (part LTC2954CTS8-1#TRMPBF) 
+      (fields 
+        (field 
+          (name Reference) IC) 
+        (field 
+          (name Value) LTC2954CTS8-1#TRMPBF) 
+        (field 
+          (name Footprint) SOT65P280X100-8N) 
+        (field 
+          (name Datasheet) http://www.farnell.com/datasheets/1705686.pdf) 
+        (field 
+          (name Description) "Linear Technology LTC2954CTS8-1#TRMPBF, Voltage Controller 1V max., 8-Pin TSOT-23") 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) "Linear Technology") 
+        (field 
+          (name Manufacturer_Part_Number) LTC2954CTS8-1#TRMPBF) 
+        (field 
+          (name "Mouser Part Number") 584-C2954CTS8-1TMPF) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LTC2954CTS8-1TRMPBF?qs=hVkxg5c3xu%2F806wrZ4RpXA%3D%3D) 
+        (field 
+          (name "Arrow Part Number") LTC2954CTS8-1#TRMPBF) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/ltc2954cts8-1trmpbf/linear-technology)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VIN) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~PB) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name ONT) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name ~INT) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name EN/~EN) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name PDT) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name ~KILL) 
+          (type passive)))) 
+    (libpart 
+      (lib MAX17048G+) 
+      (part MAX17048G+) 
+      (fields 
+        (field 
+          (name Reference) IC) 
+        (field 
+          (name Value) MAX17048G+) 
+        (field 
+          (name Footprint) SON50P200X200X80-9N-D) 
+        (field 
+          (name Datasheet) https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf) 
+        (field 
+          (name Description) "3uA 1-Cell/2-Cell Fuel Gauge with ModelGauge, TDFN-8") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) "Maxim Integrated") 
+        (field 
+          (name Manufacturer_Part_Number) MAX17048G+) 
+        (field 
+          (name "Arrow Part Number") MAX17048G+) 
+        (field 
+          (name "Mouser Part Number") 700-MAX17048G+) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX17048G%2b?qs=D7PJwyCwLArjnts0jPerYw%3D%3D)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name CTG) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name CELL) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name VDD) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name ~ALRT) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name QSTART) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name SCL) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name SDA) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name EP) 
+          (type passive)))) 
+    (libpart 
+      (lib MBR230LSFT1G) 
+      (part MBR230LSFT1G) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) MBR230LSFT1G) 
+        (field 
+          (name Footprint) SODFL3616X98N) 
+        (field 
+          (name Datasheet) http://www.onsemi.com/pub/Collateral/MBR230LSFT1-D.PDF) 
+        (field 
+          (name Description) "Diode Schottky 30V 2A SOD123FL ON Semiconductor MBR230LSFT1G Schottky Diode, 2A, 30V, 2-Pin SOD-123FL") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) "ON Semiconductor") 
+        (field 
+          (name Manufacturer_Part_Number) MBR230LSFT1G) 
+        (field 
+          (name "Mouser Part Number") 863-MBR230LSFT1G) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MBR230LSFT1G/?qs=Jh7l0IbPjid1ZBeNXVj%2FnA%3D%3D) 
+        (field 
+          (name "Arrow Part Number") MBR230LSFT1G) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/mbr230lsft1g/on-semiconductor)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Mechanical) 
+      (part Fiducial) 
+      (description "Fiducial Marker") 
+      (docs ~) 
+      (footprints 
+        (fp Fiducial*)) 
+      (fields 
+        (field 
+          (name Reference) FID) 
+        (field 
+          (name Value) Fiducial))) 
+    (libpart 
+      (lib RE1C002UN) 
+      (part TP0610T) 
+      (aliases 
+        (alias VP0610T) 
+        (alias BSS84) 
+        (alias NTR2101P) 
+        (alias BSS83P) 
+        (alias Si2319CDS) 
+        (alias IRLML6402) 
+        (alias DMG2301L) 
+        (alias AO3401A) 
+        (alias IRLML9301) 
+        (alias IRLML5203) 
+        (alias Si2371EDS)) 
+      (description "-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23") 
+      (docs http://www.vishay.com/docs/70209/70209.pdf) 
+      (footprints 
+        (fp SOT?23*)) 
+      (fields 
+        (field 
+          (name Reference) Q) 
+        (field 
+          (name Value) TP0610T) 
+        (field 
+          (name Footprint) Package_TO_SOT_SMD:SOT-23)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name G) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name S) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name D) 
+          (type passive)))) 
+    (libpart 
+      (lib RF_Module) 
+      (part ESP32-WROOM-32) 
+      (aliases 
+        (alias ESP32-WROOM-32D)) 
+      (description "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD") 
+      (docs https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf) 
+      (footprints 
+        (fp ESP32?WROOM?32*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) ESP32-WROOM-32) 
+        (field 
+          (name Footprint) RF_Module:ESP32-WROOM-32)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name VDD) 
+          (type power_in)) 
+        (pin 
+          (num 3) 
+          (name EN) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name SENSOR_VP) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name SENSOR_VN) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name IO34) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name IO35) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name IO32) 
+          (type BiDi)) 
+        (pin 
+          (num 9) 
+          (name IO33) 
+          (type BiDi)) 
+        (pin 
+          (num 10) 
+          (name IO25) 
+          (type BiDi)) 
+        (pin 
+          (num 11) 
+          (name IO26) 
+          (type BiDi)) 
+        (pin 
+          (num 12) 
+          (name IO27) 
+          (type BiDi)) 
+        (pin 
+          (num 13) 
+          (name IO14) 
+          (type BiDi)) 
+        (pin 
+          (num 14) 
+          (name IO12) 
+          (type BiDi)) 
+        (pin 
+          (num 15) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num 16) 
+          (name IO13) 
+          (type BiDi)) 
+        (pin 
+          (num 17) 
+          (name SHD/SD2) 
+          (type BiDi)) 
+        (pin 
+          (num 18) 
+          (name SWP/SD3) 
+          (type BiDi)) 
+        (pin 
+          (num 19) 
+          (name SCS/CMD) 
+          (type BiDi)) 
+        (pin 
+          (num 20) 
+          (name SCK/CLK) 
+          (type BiDi)) 
+        (pin 
+          (num 21) 
+          (name SDO/SD0) 
+          (type BiDi)) 
+        (pin 
+          (num 22) 
+          (name SDI/SD1) 
+          (type BiDi)) 
+        (pin 
+          (num 23) 
+          (name IO15) 
+          (type BiDi)) 
+        (pin 
+          (num 24) 
+          (name IO2) 
+          (type BiDi)) 
+        (pin 
+          (num 25) 
+          (name IO0) 
+          (type BiDi)) 
+        (pin 
+          (num 26) 
+          (name IO4) 
+          (type BiDi)) 
+        (pin 
+          (num 27) 
+          (name IO16) 
+          (type BiDi)) 
+        (pin 
+          (num 28) 
+          (name IO17) 
+          (type BiDi)) 
+        (pin 
+          (num 29) 
+          (name IO5) 
+          (type BiDi)) 
+        (pin 
+          (num 30) 
+          (name IO18) 
+          (type BiDi)) 
+        (pin 
+          (num 31) 
+          (name IO19) 
+          (type BiDi)) 
+        (pin 
+          (num 32) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 33) 
+          (name IO21) 
+          (type BiDi)) 
+        (pin 
+          (num 34) 
+          (name RXD0/IO3) 
+          (type BiDi)) 
+        (pin 
+          (num 35) 
+          (name TXD0/IO1) 
+          (type BiDi)) 
+        (pin 
+          (num 36) 
+          (name IO22) 
+          (type BiDi)) 
+        (pin 
+          (num 37) 
+          (name IO23) 
+          (type BiDi)) 
+        (pin 
+          (num 38) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num 39) 
+          (name GND) 
+          (type passive)))) 
+    (libpart 
+      (lib SHT41-AD1B-R3) 
+      (part SHT41-AD1B-R3) 
+      (fields 
+        (field 
+          (name Reference) IC) 
+        (field 
+          (name Value) SHT41-AD1B-R3) 
+        (field 
+          (name Footprint) SHT41AD1BR3) 
+        (field 
+          (name Datasheet) https://www.mouser.fr/datasheet/2/682/Sensirion_Humidity_Sensors_SHT4x_Datasheet-2001050.pdf) 
+        (field 
+          (name Description) "Board Mount Humidity Sensors Intermediate Humidity and Temperature Sensor - Bulk") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) Sensirion) 
+        (field 
+          (name Manufacturer_Part_Number) SHT41-AD1B-R3) 
+        (field 
+          (name "Mouser Part Number") 403-SHT41-AD1B-R3) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Sensirion/SHT41-AD1B-R3?qs=XAiT9M5g4x9TCtE5W6N3dA%3D%3D)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name SDA) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name SCL) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name VDD) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name VSS) 
+          (type passive)))) 
+    (libpart 
+      (lib SP1003-01DTG) 
+      (part SP1003-01DTG) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) SP1003-01DTG) 
+        (field 
+          (name Footprint) SODFL1406X65N) 
+        (field 
+          (name Datasheet) https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp1003_datasheet.pdf.pdf) 
+        (field 
+          (name Description) "1 Ch 30KV 30pF TVS Diode Array SOD-723") 
+        (field 
+          (name Height) 0) 
+        (field 
+          (name Manufacturer_Name) LITTELFUSE) 
+        (field 
+          (name Manufacturer_Part_Number) SP1003-01DTG) 
+        (field 
+          (name "Arrow Part Number") SP1003-01DTG) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/sp1003-01dtg/littelfuse) 
+        (field 
+          (name "Mouser Part Number") 576-SP1003-01DTG) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Littelfuse/SP1003-01DTG?qs=Xb8IjHhkxj76JbYOs4IgRA%3D%3D)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib SS34) 
+      (part SS34) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) SS34) 
+        (field 
+          (name Footprint) DIOM8059X256N) 
+        (field 
+          (name Datasheet) https://componentsearchengine.com/Datasheets/2/SS34.pdf) 
+        (field 
+          (name Description) "ON Semi SS34 SMT Schottky Diode, 40V 3A, 2-Pin DO-214AB") 
+        (field 
+          (name Height) 2) 
+        (field 
+          (name Manufacturer_Name) "ON Semiconductor") 
+        (field 
+          (name Manufacturer_Part_Number) SS34) 
+        (field 
+          (name "Mouser Part Number") 512-SS34) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/SS34?qs=2ONuHmP%2FXzb3ub11UdFfdQ%3D%3D) 
+        (field 
+          (name "Arrow Part Number") SS34) 
+        (field 
+          (name "Arrow Price/Stock") https://www.arrow.com/en/products/ss34/on-semiconductor)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Switch) 
+      (part SW_Push) 
+      (description "Push button switch, generic, two pins") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_Push)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)))) 
+    (libpart 
+      (lib Transistor_FET) 
+      (part TP0610T) 
+      (aliases 
+        (alias VP0610T) 
+        (alias BSS84) 
+        (alias NTR2101P) 
+        (alias BSS83P) 
+        (alias Si2319CDS) 
+        (alias IRLML6401) 
+        (alias IRLML6402) 
+        (alias DMG2301L) 
+        (alias AO3401A) 
+        (alias IRLML9301) 
+        (alias IRLML5203) 
+        (alias Si2371EDS) 
+        (alias TSM2301ACX) 
+        (alias FDN340P)) 
+      (description "-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23") 
+      (docs http://www.vishay.com/docs/70209/70209.pdf) 
+      (footprints 
+        (fp SOT?23*)) 
+      (fields 
+        (field 
+          (name Reference) Q) 
+        (field 
+          (name Value) TP0610T) 
+        (field 
+          (name Footprint) Package_TO_SOT_SMD:SOT-23)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name G) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name S) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name D) 
+          (type passive)))) 
+    (libpart 
+      (lib UMH3N) 
+      (part UMH3N) 
+      (fields 
+        (field 
+          (name Reference) Q) 
+        (field 
+          (name Value) UMH3N) 
+        (field 
+          (name Footprint) SOT65P230X110-6N) 
+        (field 
+          (name Datasheet) https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-UMH3N_C62892.pdf) 
+        (field 
+          (name Description) "2 NPN pre-biased (Dual) 100mA 50V SC-70-6(SOT-363) Digital Transistors RoHS") 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) "Changjiang Electronics Tech (CJ)") 
+        (field 
+          (name Manufacturer_Part_Number) UMH3N)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name E1) 
+          (type unspc)) 
+        (pin 
+          (num 2) 
+          (name B1) 
+          (type unspc)) 
+        (pin 
+          (num 3) 
+          (name C2) 
+          (type unspc)) 
+        (pin 
+          (num 4) 
+          (name E2) 
+          (type unspc)) 
+        (pin 
+          (num 5) 
+          (name B2) 
+          (type unspc)) 
+        (pin 
+          (num 6) 
+          (name C1) 
+          (type unspc)))) 
+    (libpart 
+      (lib XC6220B331MR-G) 
+      (part XC6220B331MR-G) 
+      (fields 
+        (field 
+          (name Reference) IC) 
+        (field 
+          (name Value) XC6220B331MR-G) 
+        (field 
+          (name Footprint) SOT95P280X130-5N) 
+        (field 
+          (name Datasheet) https://www.torexsemi.com/file/xc6220/XC6220.pdf) 
+        (field 
+          (name Description) "TOREX - XC6220B331MR-G - IC, LDO, 1A, 3.3V, SOT-25") 
+        (field 
+          (name Height) 1) 
+        (field 
+          (name Manufacturer_Name) Torex) 
+        (field 
+          (name Manufacturer_Part_Number) XC6220B331MR-G) 
+        (field 
+          (name "Mouser Part Number") 865-XC6220B331MR-G) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6220B331MR-G?qs=AsjdqWjXhJ8lRh0WBUyqoQ%3D%3D)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VIN) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name VSS) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name CE) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name NC) 
+          (type NotConnected)) 
+        (pin 
+          (num 5) 
+          (name VOUT) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical Battery_Management) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Battery_Management.lib")) 
+    (library 
+      (logical CN3791) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/CN3791.lib)) 
+    (library 
+      (logical Connector) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib")) 
+    (library 
+      (logical Connector_Generic) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")) 
+    (library 
+      (logical Connector_Generic_MountingPin) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic_MountingPin.lib")) 
+    (library 
+      (logical Device) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")) 
+    (library 
+      (logical FS312F-G) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/FS312F-G.lib)) 
+    (library 
+      (logical FS8205) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/FS8205.lib)) 
+    (library 
+      (logical Interface_USB) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Interface_USB.lib")) 
+    (library 
+      (logical Isolator) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Isolator.lib")) 
+    (library 
+      (logical Jumper) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Jumper.lib")) 
+    (library 
+      (logical LTC2954CTS8-1#TRMPBF) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/LTC2954CTS8-1#TRMPBF.lib)) 
+    (library 
+      (logical MAX17048G+) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/MAX17048G+.lib)) 
+    (library 
+      (logical MBR230LSFT1G) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/MBR230LSFT1G.lib)) 
+    (library 
+      (logical Mechanical) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib")) 
+    (library 
+      (logical RE1C002UN) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/RE1C002UN.lib)) 
+    (library 
+      (logical RF_Module) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/RF_Module.lib")) 
+    (library 
+      (logical SHT41-AD1B-R3) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/SHT41-AD1B-R3.lib)) 
+    (library 
+      (logical SP1003-01DTG) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/SP1003-01DTG.lib)) 
+    (library 
+      (logical SS34) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/SS34.lib)) 
+    (library 
+      (logical Switch) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Switch.lib")) 
+    (library 
+      (logical Transistor_FET) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Transistor_FET.lib")) 
+    (library 
+      (logical UMH3N) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/UMH3N.lib)) 
+    (library 
+      (logical XC6220B331MR-G) 
+      (uri C:\Users\Pierre\Documents\Gnuvario_for_TTGO-T5\Testboard_ESP32/Librairie/XC6220B331MR-G.lib))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name +3V3) 
+      (node 
+        (ref C6) 
+        (pin 1)) 
+      (node 
+        (ref C7) 
+        (pin 1)) 
+      (node 
+        (ref R14) 
+        (pin 2)) 
+      (node 
+        (ref R21) 
+        (pin 2)) 
+      (node 
+        (ref U13) 
+        (pin 5)) 
+      (node 
+        (ref R22) 
+        (pin 2)) 
+      (node 
+        (ref JP18) 
+        (pin 3)) 
+      (node 
+        (ref JP14) 
+        (pin 3)) 
+      (node 
+        (ref JP20) 
+        (pin 3)) 
+      (node 
+        (ref JP19) 
+        (pin 3)) 
+      (node 
+        (ref JP21) 
+        (pin 1)) 
+      (node 
+        (ref C25) 
+        (pin 1)) 
+      (node 
+        (ref C11) 
+        (pin 1)) 
+      (node 
+        (ref IC6) 
+        (pin 3)) 
+      (node 
+        (ref R1) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 2)) 
+      (node 
+        (ref C20) 
+        (pin 1)) 
+      (node 
+        (ref JP23) 
+        (pin 1)) 
+      (node 
+        (ref R15) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 7)) 
+      (node 
+        (ref U12) 
+        (pin 6)) 
+      (node 
+        (ref U12) 
+        (pin 5)) 
+      (node 
+        (ref R16) 
+        (pin 2)) 
+      (node 
+        (ref R17) 
+        (pin 2)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref J7) 
+        (pin 1)) 
+      (node 
+        (ref JP13) 
+        (pin 3))) 
+    (net 
+      (code 2) 
+      (name IO18) 
+      (node 
+        (ref R3) 
+        (pin 2)) 
+      (node 
+        (ref JP2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 30))) 
+    (net 
+      (code 3) 
+      (name IO19) 
+      (node 
+        (ref U1) 
+        (pin 31)) 
+      (node 
+        (ref R2) 
+        (pin 2)) 
+      (node 
+        (ref JP1) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name Sensor_VN_IO39) 
+      (node 
+        (ref R15) 
+        (pin 2)) 
+      (node 
+        (ref IC3) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 5))) 
+    (net 
+      (code 5) 
+      (name IO2) 
+      (node 
+        (ref U1) 
+        (pin 24)) 
+      (node 
+        (ref J9) 
+        (pin 1))) 
+    (net 
+      (code 6) 
+      (name +5V) 
+      (node 
+        (ref JP19) 
+        (pin 1)) 
+      (node 
+        (ref Q2) 
+        (pin 2)) 
+      (node 
+        (ref JP20) 
+        (pin 1)) 
+      (node 
+        (ref U13) 
+        (pin 1)) 
+      (node 
+        (ref R37) 
+        (pin 2)) 
+      (node 
+        (ref D4) 
+        (pin 1)) 
+      (node 
+        (ref C24) 
+        (pin 1)) 
+      (node 
+        (ref J9) 
+        (pin 2)) 
+      (node 
+        (ref C9) 
+        (pin 1)) 
+      (node 
+        (ref C4) 
+        (pin 1)) 
+      (node 
+        (ref C5) 
+        (pin 1)) 
+      (node 
+        (ref IC3) 
+        (pin 1)) 
+      (node 
+        (ref JP18) 
+        (pin 1)) 
+      (node 
+        (ref JP23) 
+        (pin 3)) 
+      (node 
+        (ref JP14) 
+        (pin 1)) 
+      (node 
+        (ref JP13) 
+        (pin 1))) 
+    (net 
+      (code 7) 
+      (name GND) 
+      (node 
+        (ref Q4) 
+        (pin 3)) 
+      (node 
+        (ref U9) 
+        (pin 2)) 
+      (node 
+        (ref IC2) 
+        (pin 6)) 
+      (node 
+        (ref IC2) 
+        (pin 1)) 
+      (node 
+        (ref U7) 
+        (pin 2)) 
+      (node 
+        (ref C18) 
+        (pin 2)) 
+      (node 
+        (ref U8) 
+        (pin 2)) 
+      (node 
+        (ref R27) 
+        (pin 2)) 
+      (node 
+        (ref R30) 
+        (pin 2)) 
+      (node 
+        (ref R19) 
+        (pin 2)) 
+      (node 
+        (ref J10) 
+        (pin 2)) 
+      (node 
+        (ref U5) 
+        (pin 2)) 
+      (node 
+        (ref U6) 
+        (pin 2)) 
+      (node 
+        (ref U10) 
+        (pin 2)) 
+      (node 
+        (ref IC2) 
+        (pin 9)) 
+      (node 
+        (ref IC2) 
+        (pin 4)) 
+      (node 
+        (ref U4) 
+        (pin 2)) 
+      (node 
+        (ref U11) 
+        (pin 2)) 
+      (node 
+        (ref C20) 
+        (pin 2)) 
+      (node 
+        (ref IC3) 
+        (pin 4)) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref IC6) 
+        (pin 4)) 
+      (node 
+        (ref J12) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 15)) 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 25)) 
+      (node 
+        (ref U12) 
+        (pin 2)) 
+      (node 
+        (ref C10) 
+        (pin 2)) 
+      (node 
+        (ref SW2) 
+        (pin 1)) 
+      (node 
+        (ref C4) 
+        (pin 2)) 
+      (node 
+        (ref C15) 
+        (pin 2)) 
+      (node 
+        (ref C5) 
+        (pin 2)) 
+      (node 
+        (ref C8) 
+        (pin 2)) 
+      (node 
+        (ref C3) 
+        (pin 2)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref C9) 
+        (pin 2)) 
+      (node 
+        (ref J9) 
+        (pin 3)) 
+      (node 
+        (ref R13) 
+        (pin 1)) 
+      (node 
+        (ref J7) 
+        (pin 4)) 
+      (node 
+        (ref R18) 
+        (pin 2)) 
+      (node 
+        (ref U15) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 39)) 
+      (node 
+        (ref U1) 
+        (pin 38)) 
+      (node 
+        (ref C16) 
+        (pin 2)) 
+      (node 
+        (ref C17) 
+        (pin 2)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref C7) 
+        (pin 2)) 
+      (node 
+        (ref D15) 
+        (pin 1)) 
+      (node 
+        (ref C6) 
+        (pin 2)) 
+      (node 
+        (ref D2) 
+        (pin 2)) 
+      (node 
+        (ref D1) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref R26) 
+        (pin 1)) 
+      (node 
+        (ref IC1) 
+        (pin 2)) 
+      (node 
+        (ref C14) 
+        (pin 2)) 
+      (node 
+        (ref C24) 
+        (pin 2)) 
+      (node 
+        (ref C11) 
+        (pin 2)) 
+      (node 
+        (ref C25) 
+        (pin 2)) 
+      (node 
+        (ref C13) 
+        (pin 2)) 
+      (node 
+        (ref U13) 
+        (pin 2)) 
+      (node 
+        (ref C19) 
+        (pin 2)) 
+      (node 
+        (ref C12) 
+        (pin 2)) 
+      (node 
+        (ref R33) 
+        (pin 1)) 
+      (node 
+        (ref R34) 
+        (pin 1)) 
+      (node 
+        (ref JP17) 
+        (pin 2)) 
+      (node 
+        (ref J13) 
+        (pin B12)) 
+      (node 
+        (ref D12) 
+        (pin 2)) 
+      (node 
+        (ref JP12) 
+        (pin 2)) 
+      (node 
+        (ref J13) 
+        (pin A12)) 
+      (node 
+        (ref J13) 
+        (pin A1)) 
+      (node 
+        (ref C23) 
+        (pin 2)) 
+      (node 
+        (ref JP11) 
+        (pin 2)) 
+      (node 
+        (ref J13) 
+        (pin B1)) 
+      (node 
+        (ref U2) 
+        (pin 2)) 
+      (node 
+        (ref JP16) 
+        (pin 2)) 
+      (node 
+        (ref JP15) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 2)) 
+      (node 
+        (ref R35) 
+        (pin 2)) 
+      (node 
+        (ref D3) 
+        (pin 2)) 
+      (node 
+        (ref C22) 
+        (pin 2))) 
+    (net 
+      (code 8) 
+      (name IO27) 
+      (node 
+        (ref U1) 
+        (pin 12)) 
+      (node 
+        (ref JP7) 
+        (pin 1)) 
+      (node 
+        (ref R8) 
+        (pin 2))) 
+    (net 
+      (code 9) 
+      (name "Net-(J2-Pad4)") 
+      (node 
+        (ref JP11) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 4)) 
+      (node 
+        (ref U3) 
+        (pin 3))) 
+    (net 
+      (code 10) 
+      (name "Net-(J2-Pad3)") 
+      (node 
+        (ref U3) 
+        (pin 4)) 
+      (node 
+        (ref J2) 
+        (pin 3)) 
+      (node 
+        (ref JP2) 
+        (pin 2))) 
+    (net 
+      (code 11) 
+      (name "Net-(R2-Pad1)") 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 1))) 
+    (net 
+      (code 12) 
+      (name "Net-(J2-Pad1)") 
+      (node 
+        (ref JP1) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 4))) 
+    (net 
+      (code 13) 
+      (name "Net-(R3-Pad1)") 
+      (node 
+        (ref R3) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 1))) 
+    (net 
+      (code 14) 
+      (name "Net-(J2-Pad2)") 
+      (node 
+        (ref JP13) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 3))) 
+    (net 
+      (code 15) 
+      (name PS_HOLD_IO33) 
+      (node 
+        (ref IC3) 
+        (pin 8)) 
+      (node 
+        (ref U1) 
+        (pin 9))) 
+    (net 
+      (code 16) 
+      (name "Net-(J2-PadMP)") 
+      (node 
+        (ref J2) 
+        (pin MP))) 
+    (net 
+      (code 17) 
+      (name IO26) 
+      (node 
+        (ref R9) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 11)) 
+      (node 
+        (ref JP8) 
+        (pin 1))) 
+    (net 
+      (code 18) 
+      (name "Net-(J4-Pad2)") 
+      (node 
+        (ref U6) 
+        (pin 3)) 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref JP18) 
+        (pin 2))) 
+    (net 
+      (code 19) 
+      (name "Net-(J13-PadS1)") 
+      (node 
+        (ref R26) 
+        (pin 2)) 
+      (node 
+        (ref J13) 
+        (pin S1))) 
+    (net 
+      (code 20) 
+      (name "Net-(JP21-Pad2)") 
+      (node 
+        (ref JP21) 
+        (pin 2)) 
+      (node 
+        (ref R29) 
+        (pin 2))) 
+    (net 
+      (code 21) 
+      (name "Net-(D15-Pad2)") 
+      (node 
+        (ref D15) 
+        (pin 2)) 
+      (node 
+        (ref R29) 
+        (pin 1))) 
+    (net 
+      (code 22) 
+      (name USBD_N) 
+      (node 
+        (ref J13) 
+        (pin A7)) 
+      (node 
+        (ref J13) 
+        (pin B7)) 
+      (node 
+        (ref U12) 
+        (pin 4)) 
+      (node 
+        (ref D3) 
+        (pin 1))) 
+    (net 
+      (code 23) 
+      (name USBD_P) 
+      (node 
+        (ref D2) 
+        (pin 1)) 
+      (node 
+        (ref J13) 
+        (pin A6)) 
+      (node 
+        (ref U12) 
+        (pin 3)) 
+      (node 
+        (ref J13) 
+        (pin B6))) 
+    (net 
+      (code 24) 
+      (name "Net-(J13-PadA5)") 
+      (node 
+        (ref R33) 
+        (pin 2)) 
+      (node 
+        (ref J13) 
+        (pin A5))) 
+    (net 
+      (code 25) 
+      (name "Net-(J13-PadB5)") 
+      (node 
+        (ref J13) 
+        (pin B5)) 
+      (node 
+        (ref R34) 
+        (pin 2))) 
+    (net 
+      (code 26) 
+      (name CE) 
+      (node 
+        (ref U13) 
+        (pin 3)) 
+      (node 
+        (ref IC3) 
+        (pin 6)) 
+      (node 
+        (ref JP24) 
+        (pin 2)) 
+      (node 
+        (ref R37) 
+        (pin 1))) 
+    (net 
+      (code 27) 
+      (name "Net-(U13-Pad4)") 
+      (node 
+        (ref U13) 
+        (pin 4))) 
+    (net 
+      (code 28) 
+      (name "Net-(D7-Pad2)") 
+      (node 
+        (ref D7) 
+        (pin 2)) 
+      (node 
+        (ref R22) 
+        (pin 1))) 
+    (net 
+      (code 29) 
+      (name TXLED) 
+      (node 
+        (ref U12) 
+        (pin 14)) 
+      (node 
+        (ref D7) 
+        (pin 1))) 
+    (net 
+      (code 30) 
+      (name RXLED) 
+      (node 
+        (ref D6) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 13))) 
+    (net 
+      (code 31) 
+      (name "Net-(R14-Pad1)") 
+      (node 
+        (ref U12) 
+        (pin 9)) 
+      (node 
+        (ref R14) 
+        (pin 1))) 
+    (net 
+      (code 32) 
+      (name "Net-(D6-Pad2)") 
+      (node 
+        (ref R21) 
+        (pin 1)) 
+      (node 
+        (ref D6) 
+        (pin 2))) 
+    (net 
+      (code 33) 
+      (name "Net-(J13-PadA8)") 
+      (node 
+        (ref J13) 
+        (pin A8))) 
+    (net 
+      (code 34) 
+      (name "Net-(J4-PadMP)") 
+      (node 
+        (ref J4) 
+        (pin MP))) 
+    (net 
+      (code 35) 
+      (name "Net-(J4-Pad1)") 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref U6) 
+        (pin 4)) 
+      (node 
+        (ref JP5) 
+        (pin 2))) 
+    (net 
+      (code 36) 
+      (name VBUS) 
+      (node 
+        (ref R12) 
+        (pin 2)) 
+      (node 
+        (ref J13) 
+        (pin A9)) 
+      (node 
+        (ref D4) 
+        (pin 2)) 
+      (node 
+        (ref D14) 
+        (pin 2)) 
+      (node 
+        (ref J13) 
+        (pin B9)) 
+      (node 
+        (ref Q2) 
+        (pin 1)) 
+      (node 
+        (ref J13) 
+        (pin A4)) 
+      (node 
+        (ref J13) 
+        (pin B4)) 
+      (node 
+        (ref U15) 
+        (pin 4)) 
+      (node 
+        (ref C16) 
+        (pin 1)) 
+      (node 
+        (ref R19) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref JP22) 
+        (pin 1))) 
+    (net 
+      (code 37) 
+      (name "Net-(J13-PadB8)") 
+      (node 
+        (ref J13) 
+        (pin B8))) 
+    (net 
+      (code 38) 
+      (name IO35) 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref J10) 
+        (pin 3))) 
+    (net 
+      (code 39) 
+      (name IO34) 
+      (node 
+        (ref U1) 
+        (pin 6)) 
+      (node 
+        (ref J10) 
+        (pin 4))) 
+    (net 
+      (code 40) 
+      (name "Net-(J4-Pad4)") 
+      (node 
+        (ref J4) 
+        (pin 4)) 
+      (node 
+        (ref JP15) 
+        (pin 1)) 
+      (node 
+        (ref U7) 
+        (pin 3))) 
+    (net 
+      (code 41) 
+      (name "Net-(J5-Pad2)") 
+      (node 
+        (ref JP19) 
+        (pin 2)) 
+      (node 
+        (ref J5) 
+        (pin 2)) 
+      (node 
+        (ref U8) 
+        (pin 3))) 
+    (net 
+      (code 42) 
+      (name "Net-(J5-Pad4)") 
+      (node 
+        (ref U9) 
+        (pin 3)) 
+      (node 
+        (ref J5) 
+        (pin 4)) 
+      (node 
+        (ref JP16) 
+        (pin 1))) 
+    (net 
+      (code 43) 
+      (name "Net-(J5-Pad3)") 
+      (node 
+        (ref JP8) 
+        (pin 2)) 
+      (node 
+        (ref J5) 
+        (pin 3)) 
+      (node 
+        (ref U9) 
+        (pin 4))) 
+    (net 
+      (code 44) 
+      (name "Net-(J6-Pad2)") 
+      (node 
+        (ref J6) 
+        (pin 2)) 
+      (node 
+        (ref JP20) 
+        (pin 2)) 
+      (node 
+        (ref U10) 
+        (pin 3))) 
+    (net 
+      (code 45) 
+      (name "Net-(J3-Pad2)") 
+      (node 
+        (ref JP14) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 3)) 
+      (node 
+        (ref J3) 
+        (pin 2))) 
+    (net 
+      (code 46) 
+      (name "Net-(R9-Pad1)") 
+      (node 
+        (ref U9) 
+        (pin 1)) 
+      (node 
+        (ref R9) 
+        (pin 1))) 
+    (net 
+      (code 47) 
+      (name IO25) 
+      (node 
+        (ref JP10) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 10)) 
+      (node 
+        (ref R11) 
+        (pin 2))) 
+    (net 
+      (code 48) 
+      (name "Net-(R8-Pad1)") 
+      (node 
+        (ref R8) 
+        (pin 1)) 
+      (node 
+        (ref U8) 
+        (pin 1))) 
+    (net 
+      (code 49) 
+      (name "Net-(R6-Pad1)") 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref U6) 
+        (pin 1))) 
+    (net 
+      (code 50) 
+      (name IO04) 
+      (node 
+        (ref R6) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 26)) 
+      (node 
+        (ref JP5) 
+        (pin 1))) 
+    (net 
+      (code 51) 
+      (name "Net-(R7-Pad1)") 
+      (node 
+        (ref U7) 
+        (pin 1)) 
+      (node 
+        (ref R7) 
+        (pin 1))) 
+    (net 
+      (code 52) 
+      (name IO13) 
+      (node 
+        (ref JP6) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 16)) 
+      (node 
+        (ref R7) 
+        (pin 2))) 
+    (net 
+      (code 53) 
+      (name IO32) 
+      (node 
+        (ref R10) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref JP9) 
+        (pin 1))) 
+    (net 
+      (code 54) 
+      (name SCL) 
+      (node 
+        (ref IC6) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 36)) 
+      (node 
+        (ref J7) 
+        (pin 2)) 
+      (node 
+        (ref R17) 
+        (pin 1)) 
+      (node 
+        (ref IC2) 
+        (pin 7))) 
+    (net 
+      (code 55) 
+      (name SDA) 
+      (node 
+        (ref U1) 
+        (pin 33)) 
+      (node 
+        (ref IC6) 
+        (pin 1)) 
+      (node 
+        (ref R16) 
+        (pin 1)) 
+      (node 
+        (ref J7) 
+        (pin 3)) 
+      (node 
+        (ref IC2) 
+        (pin 8))) 
+    (net 
+      (code 56) 
+      (name "Net-(J3-PadMP)") 
+      (node 
+        (ref J3) 
+        (pin MP))) 
+    (net 
+      (code 57) 
+      (name "Net-(R4-Pad1)") 
+      (node 
+        (ref U4) 
+        (pin 1)) 
+      (node 
+        (ref R4) 
+        (pin 1))) 
+    (net 
+      (code 58) 
+      (name "Net-(R5-Pad1)") 
+      (node 
+        (ref U5) 
+        (pin 1)) 
+      (node 
+        (ref R5) 
+        (pin 1))) 
+    (net 
+      (code 59) 
+      (name UOTXD) 
+      (node 
+        (ref U1) 
+        (pin 35)) 
+      (node 
+        (ref U12) 
+        (pin 20))) 
+    (net 
+      (code 60) 
+      (name DTR) 
+      (node 
+        (ref Q1) 
+        (pin 2)) 
+      (node 
+        (ref Q1) 
+        (pin 4)) 
+      (node 
+        (ref U12) 
+        (pin 23))) 
+    (net 
+      (code 61) 
+      (name RTS) 
+      (node 
+        (ref U12) 
+        (pin 19)) 
+      (node 
+        (ref Q1) 
+        (pin 1)) 
+      (node 
+        (ref Q1) 
+        (pin 5))) 
+    (net 
+      (code 62) 
+      (name UORXD) 
+      (node 
+        (ref U1) 
+        (pin 34)) 
+      (node 
+        (ref U12) 
+        (pin 21))) 
+    (net 
+      (code 63) 
+      (name IO0) 
+      (node 
+        (ref U1) 
+        (pin 25)) 
+      (node 
+        (ref Q1) 
+        (pin 3))) 
+    (net 
+      (code 64) 
+      (name "Net-(R12-Pad1)") 
+      (node 
+        (ref R13) 
+        (pin 2)) 
+      (node 
+        (ref R12) 
+        (pin 1)) 
+      (node 
+        (ref U12) 
+        (pin 8))) 
+    (net 
+      (code 65) 
+      (name RST_EN) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 3)) 
+      (node 
+        (ref C3) 
+        (pin 1)) 
+      (node 
+        (ref Q1) 
+        (pin 6)) 
+      (node 
+        (ref SW1) 
+        (pin 1))) 
+    (net 
+      (code 66) 
+      (name "Net-(U1-Pad32)") 
+      (node 
+        (ref U1) 
+        (pin 32))) 
+    (net 
+      (code 67) 
+      (name "Net-(U1-Pad37)") 
+      (node 
+        (ref U1) 
+        (pin 37))) 
+    (net 
+      (code 68) 
+      (name "Net-(U1-Pad4)") 
+      (node 
+        (ref U1) 
+        (pin 4))) 
+    (net 
+      (code 69) 
+      (name "Net-(U1-Pad19)") 
+      (node 
+        (ref U1) 
+        (pin 19))) 
+    (net 
+      (code 70) 
+      (name "Net-(R10-Pad1)") 
+      (node 
+        (ref U10) 
+        (pin 1)) 
+      (node 
+        (ref R10) 
+        (pin 1))) 
+    (net 
+      (code 71) 
+      (name "Net-(U1-Pad13)") 
+      (node 
+        (ref U1) 
+        (pin 13))) 
+    (net 
+      (code 72) 
+      (name "Net-(U1-Pad14)") 
+      (node 
+        (ref U1) 
+        (pin 14))) 
+    (net 
+      (code 73) 
+      (name "Net-(U1-Pad17)") 
+      (node 
+        (ref U1) 
+        (pin 17))) 
+    (net 
+      (code 74) 
+      (name "Net-(U1-Pad18)") 
+      (node 
+        (ref U1) 
+        (pin 18))) 
+    (net 
+      (code 75) 
+      (name "Net-(U1-Pad20)") 
+      (node 
+        (ref U1) 
+        (pin 20))) 
+    (net 
+      (code 76) 
+      (name "Net-(U1-Pad21)") 
+      (node 
+        (ref U1) 
+        (pin 21))) 
+    (net 
+      (code 77) 
+      (name "Net-(U1-Pad22)") 
+      (node 
+        (ref U1) 
+        (pin 22))) 
+    (net 
+      (code 78) 
+      (name "Net-(U1-Pad23)") 
+      (node 
+        (ref U1) 
+        (pin 23))) 
+    (net 
+      (code 79) 
+      (name "Net-(U1-Pad29)") 
+      (node 
+        (ref U1) 
+        (pin 29))) 
+    (net 
+      (code 80) 
+      (name "Net-(J5-Pad1)") 
+      (node 
+        (ref JP7) 
+        (pin 2)) 
+      (node 
+        (ref U8) 
+        (pin 4)) 
+      (node 
+        (ref J5) 
+        (pin 1))) 
+    (net 
+      (code 81) 
+      (name "Net-(J4-Pad3)") 
+      (node 
+        (ref JP6) 
+        (pin 2)) 
+      (node 
+        (ref U7) 
+        (pin 4)) 
+      (node 
+        (ref J4) 
+        (pin 3))) 
+    (net 
+      (code 82) 
+      (name "Net-(J3-Pad1)") 
+      (node 
+        (ref JP3) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref U4) 
+        (pin 4))) 
+    (net 
+      (code 83) 
+      (name IO17) 
+      (node 
+        (ref JP3) 
+        (pin 1)) 
+      (node 
+        (ref R4) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 28))) 
+    (net 
+      (code 84) 
+      (name "Net-(J3-Pad4)") 
+      (node 
+        (ref U5) 
+        (pin 3)) 
+      (node 
+        (ref J3) 
+        (pin 4)) 
+      (node 
+        (ref JP12) 
+        (pin 1))) 
+    (net 
+      (code 85) 
+      (name IO16) 
+      (node 
+        (ref R5) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 27)) 
+      (node 
+        (ref JP4) 
+        (pin 1))) 
+    (net 
+      (code 86) 
+      (name "Net-(J6-PadMP)") 
+      (node 
+        (ref J6) 
+        (pin MP))) 
+    (net 
+      (code 87) 
+      (name "Net-(J6-Pad1)") 
+      (node 
+        (ref U10) 
+        (pin 4)) 
+      (node 
+        (ref J6) 
+        (pin 1)) 
+      (node 
+        (ref JP9) 
+        (pin 2))) 
+    (net 
+      (code 88) 
+      (name "Net-(J6-Pad3)") 
+      (node 
+        (ref U11) 
+        (pin 4)) 
+      (node 
+        (ref J6) 
+        (pin 3)) 
+      (node 
+        (ref JP10) 
+        (pin 2))) 
+    (net 
+      (code 89) 
+      (name "Net-(J6-Pad4)") 
+      (node 
+        (ref J6) 
+        (pin 4)) 
+      (node 
+        (ref U11) 
+        (pin 3)) 
+      (node 
+        (ref JP17) 
+        (pin 1))) 
+    (net 
+      (code 90) 
+      (name "Net-(J3-Pad3)") 
+      (node 
+        (ref U5) 
+        (pin 4)) 
+      (node 
+        (ref J3) 
+        (pin 3)) 
+      (node 
+        (ref JP4) 
+        (pin 2))) 
+    (net 
+      (code 91) 
+      (name "Net-(J5-PadMP)") 
+      (node 
+        (ref J5) 
+        (pin MP))) 
+    (net 
+      (code 92) 
+      (name "Net-(U12-Pad1)") 
+      (node 
+        (ref U12) 
+        (pin 1))) 
+    (net 
+      (code 93) 
+      (name "Net-(U12-Pad10)") 
+      (node 
+        (ref U12) 
+        (pin 10))) 
+    (net 
+      (code 94) 
+      (name "Net-(U12-Pad11)") 
+      (node 
+        (ref U12) 
+        (pin 11))) 
+    (net 
+      (code 95) 
+      (name "Net-(U12-Pad12)") 
+      (node 
+        (ref U12) 
+        (pin 12))) 
+    (net 
+      (code 96) 
+      (name "Net-(U12-Pad15)") 
+      (node 
+        (ref U12) 
+        (pin 15))) 
+    (net 
+      (code 97) 
+      (name "Net-(U12-Pad16)") 
+      (node 
+        (ref U12) 
+        (pin 16))) 
+    (net 
+      (code 98) 
+      (name "Net-(U12-Pad17)") 
+      (node 
+        (ref U12) 
+        (pin 17))) 
+    (net 
+      (code 99) 
+      (name "Net-(U12-Pad18)") 
+      (node 
+        (ref U12) 
+        (pin 18))) 
+    (net 
+      (code 100) 
+      (name "Net-(U12-Pad22)") 
+      (node 
+        (ref U12) 
+        (pin 22))) 
+    (net 
+      (code 101) 
+      (name "Net-(U12-Pad24)") 
+      (node 
+        (ref U12) 
+        (pin 24))) 
+    (net 
+      (code 102) 
+      (name "Net-(R11-Pad1)") 
+      (node 
+        (ref R11) 
+        (pin 1)) 
+      (node 
+        (ref U11) 
+        (pin 1))) 
+    (net 
+      (code 103) 
+      (name "Net-(C10-Pad1)") 
+      (node 
+        (ref IC3) 
+        (pin 7)) 
+      (node 
+        (ref C10) 
+        (pin 1))) 
+    (net 
+      (code 104) 
+      (name "Net-(R36-Pad2)") 
+      (node 
+        (ref R36) 
+        (pin 2)) 
+      (node 
+        (ref SW2) 
+        (pin 2))) 
+    (net 
+      (code 105) 
+      (name "Net-(C8-Pad1)") 
+      (node 
+        (ref IC3) 
+        (pin 3)) 
+      (node 
+        (ref C8) 
+        (pin 1))) 
+    (net 
+      (code 106) 
+      (name "Net-(J10-Pad1)") 
+      (node 
+        (ref JP23) 
+        (pin 2)) 
+      (node 
+        (ref J10) 
+        (pin 1))) 
+    (net 
+      (code 107) 
+      (name VBAT-) 
+      (node 
+        (ref C27) 
+        (pin 2)) 
+      (node 
+        (ref Q4) 
+        (pin 1)) 
+      (node 
+        (ref IC4) 
+        (pin 6)) 
+      (node 
+        (ref J8) 
+        (pin 1))) 
+    (net 
+      (code 108) 
+      (name "Net-(D14-Pad1)") 
+      (node 
+        (ref D14) 
+        (pin 1)) 
+      (node 
+        (ref JP24) 
+        (pin 1))) 
+    (net 
+      (code 109) 
+      (name "Net-(C15-Pad1)") 
+      (node 
+        (ref R36) 
+        (pin 1)) 
+      (node 
+        (ref IC3) 
+        (pin 2)) 
+      (node 
+        (ref C15) 
+        (pin 1))) 
+    (net 
+      (code 110) 
+      (name "Net-(R18-Pad1)") 
+      (node 
+        (ref R18) 
+        (pin 1)) 
+      (node 
+        (ref U15) 
+        (pin 5))) 
+    (net 
+      (code 111) 
+      (name "Net-(JP22-Pad2)") 
+      (node 
+        (ref JP22) 
+        (pin 2)) 
+      (node 
+        (ref R20) 
+        (pin 1))) 
+    (net 
+      (code 112) 
+      (name "Net-(D5-Pad2)") 
+      (node 
+        (ref R20) 
+        (pin 2)) 
+      (node 
+        (ref D5) 
+        (pin 2))) 
+    (net 
+      (code 113) 
+      (name "Net-(D5-Pad1)") 
+      (node 
+        (ref D5) 
+        (pin 1)) 
+      (node 
+        (ref U15) 
+        (pin 1))) 
+    (net 
+      (code 114) 
+      (name VBAT) 
+      (node 
+        (ref C22) 
+        (pin 1)) 
+      (node 
+        (ref R28) 
+        (pin 2)) 
+      (node 
+        (ref IC1) 
+        (pin 7)) 
+      (node 
+        (ref J12) 
+        (pin 2)) 
+      (node 
+        (ref C23) 
+        (pin 1)) 
+      (node 
+        (ref R31) 
+        (pin 1)) 
+      (node 
+        (ref J8) 
+        (pin 2)) 
+      (node 
+        (ref C17) 
+        (pin 1)) 
+      (node 
+        (ref IC2) 
+        (pin 2)) 
+      (node 
+        (ref IC2) 
+        (pin 3)) 
+      (node 
+        (ref U15) 
+        (pin 3)) 
+      (node 
+        (ref Q2) 
+        (pin 3)) 
+      (node 
+        (ref C18) 
+        (pin 1))) 
+    (net 
+      (code 115) 
+      (name "Net-(IC2-Pad5)") 
+      (node 
+        (ref IC2) 
+        (pin 5))) 
+    (net 
+      (code 116) 
+      (name "Net-(IC4-Pad2)") 
+      (node 
+        (ref IC4) 
+        (pin 2)) 
+      (node 
+        (ref R30) 
+        (pin 1))) 
+    (net 
+      (code 117) 
+      (name "Net-(Q4-Pad2)") 
+      (node 
+        (ref Q4) 
+        (pin 5)) 
+      (node 
+        (ref Q4) 
+        (pin 2))) 
+    (net 
+      (code 118) 
+      (name "Net-(IC4-Pad3)") 
+      (node 
+        (ref Q4) 
+        (pin 4)) 
+      (node 
+        (ref IC4) 
+        (pin 3))) 
+    (net 
+      (code 119) 
+      (name "Net-(IC4-Pad1)") 
+      (node 
+        (ref Q4) 
+        (pin 6)) 
+      (node 
+        (ref IC4) 
+        (pin 1))) 
+    (net 
+      (code 120) 
+      (name "Net-(IC1-Pad6)") 
+      (node 
+        (ref R27) 
+        (pin 1)) 
+      (node 
+        (ref IC1) 
+        (pin 6)) 
+      (node 
+        (ref R23) 
+        (pin 2))) 
+    (net 
+      (code 121) 
+      (name "Net-(C27-Pad1)") 
+      (node 
+        (ref IC4) 
+        (pin 5)) 
+      (node 
+        (ref R31) 
+        (pin 2)) 
+      (node 
+        (ref C27) 
+        (pin 1))) 
+    (net 
+      (code 122) 
+      (name "Net-(D8-Pad2)") 
+      (node 
+        (ref D8) 
+        (pin 2)) 
+      (node 
+        (ref R35) 
+        (pin 1))) 
+    (net 
+      (code 123) 
+      (name "Net-(D10-Pad2)") 
+      (node 
+        (ref D11) 
+        (pin 2)) 
+      (node 
+        (ref R25) 
+        (pin 2)) 
+      (node 
+        (ref D10) 
+        (pin 2))) 
+    (net 
+      (code 124) 
+      (name Vsolar) 
+      (node 
+        (ref C13) 
+        (pin 1)) 
+      (node 
+        (ref R23) 
+        (pin 1)) 
+      (node 
+        (ref D9) 
+        (pin 1)) 
+      (node 
+        (ref C12) 
+        (pin 1)) 
+      (node 
+        (ref IC1) 
+        (pin 9)) 
+      (node 
+        (ref C14) 
+        (pin 1)) 
+      (node 
+        (ref C21) 
+        (pin 1)) 
+      (node 
+        (ref Q3) 
+        (pin 2)) 
+      (node 
+        (ref R25) 
+        (pin 1))) 
+    (net 
+      (code 125) 
+      (name "Net-(IC4-Pad4)") 
+      (node 
+        (ref IC4) 
+        (pin 4))) 
+    (net 
+      (code 126) 
+      (name "Net-(C19-Pad1)") 
+      (node 
+        (ref C19) 
+        (pin 1)) 
+      (node 
+        (ref R24) 
+        (pin 2))) 
+    (net 
+      (code 127) 
+      (name "Net-(IC1-Pad5)") 
+      (node 
+        (ref IC1) 
+        (pin 5)) 
+      (node 
+        (ref R24) 
+        (pin 1))) 
+    (net 
+      (code 128) 
+      (name "Net-(D10-Pad1)") 
+      (node 
+        (ref IC1) 
+        (pin 3)) 
+      (node 
+        (ref D10) 
+        (pin 1))) 
+    (net 
+      (code 129) 
+      (name "Net-(D13-Pad2)") 
+      (node 
+        (ref Q3) 
+        (pin 3)) 
+      (node 
+        (ref D13) 
+        (pin 2))) 
+    (net 
+      (code 130) 
+      (name "Net-(D8-Pad1)") 
+      (node 
+        (ref D9) 
+        (pin 2)) 
+      (node 
+        (ref D8) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 2))) 
+    (net 
+      (code 131) 
+      (name "Net-(D11-Pad1)") 
+      (node 
+        (ref D11) 
+        (pin 1)) 
+      (node 
+        (ref IC1) 
+        (pin 4))) 
+    (net 
+      (code 132) 
+      (name "Net-(IC1-Pad10)") 
+      (node 
+        (ref Q3) 
+        (pin 1)) 
+      (node 
+        (ref IC1) 
+        (pin 10))) 
+    (net 
+      (code 133) 
+      (name "Net-(IC1-Pad8)") 
+      (node 
+        (ref IC1) 
+        (pin 8)) 
+      (node 
+        (ref R28) 
+        (pin 1)) 
+      (node 
+        (ref L1) 
+        (pin 2))) 
+    (net 
+      (code 134) 
+      (name "Net-(C21-Pad2)") 
+      (node 
+        (ref IC1) 
+        (pin 1)) 
+      (node 
+        (ref C21) 
+        (pin 2))) 
+    (net 
+      (code 135) 
+      (name "Net-(D12-Pad1)") 
+      (node 
+        (ref D13) 
+        (pin 1)) 
+      (node 
+        (ref L1) 
+        (pin 1)) 
+      (node 
+        (ref D12) 
+        (pin 1)))))

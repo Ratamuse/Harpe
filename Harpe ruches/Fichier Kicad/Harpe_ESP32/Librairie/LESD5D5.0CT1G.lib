@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LESD5D5.0CT1G
+#
+DEF LESD5D5.0CT1G D 0 30 Y Y 1 F N
+F0 "D" 600 350 50 H V L BNN
+F1 "LESD5D5.0CT1G" 650 250 50 H V L BNN
+F2 "LESD5D50CT1G" 650 150 50 H I L BNN
+F3 "http://www.lrcls.com/data/pdf/LESD5D5.0CT1G.pdf" 655 75 50 H I L BNN
+F4 "Transient Voltage Suppressors for ESD Protection" 530 -125 50 H I L BNN "Description"
+F5 "0.7" 480 -280 50 H I L BNN "Height"
+F6 "LRC" 650 -250 50 H I L BNN "Manufacturer_Name"
+F7 "LESD5D5.0CT1G" 650 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "LESD5D5.0CT1G" 600 -450 50 H I L BNN "Arrow Part Number"
+DRAW
+P 2 0 1 0 390 10 415 -5 N
+P 2 0 1 0 390 50 390 10 N
+P 2 0 1 0 390 50 390 90 N
+P 2 0 1 0 390 90 365 105 N
+P 4 0 1 0 320 90 320 10 390 50 320 90 N
+P 4 0 1 0 390 50 460 90 460 10 390 50 N
+X ~ 1 220 50 98 R 50 50 0 0 P
+X ~ 2 560 50 98 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

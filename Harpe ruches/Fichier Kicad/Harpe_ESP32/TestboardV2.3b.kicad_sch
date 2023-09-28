@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7b3c9b5b-aadf-4831-9e47-f873df825214)
+
+  (paper "A4")
+
+  (title_block
+    (title "Testboard V2.3b")
+    (date "2021-12-11")
+  )
+
+  (lib_symbols
+  )
+
+)
