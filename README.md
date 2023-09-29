@@ -2,78 +2,18 @@
 
 ![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe8.JPG)
 
-## Harpe
+La construction de cette harpe fait suite à différents essais effectués les années passées. Montage en tubes PVC, armature en bois, bac de noyade. Ces solutions, certes peu chères, ne me satisfaisait pas. Manque de rigidité, vieillessement prématuré, problème de cours circuits, noyades d'insectes et d'abeilles en pagaille etc etc. 
+Ce montage n'est pas "LOW COST" et ne peux rivaliser avec les montages fait à partir de tréteaux, tuyaux de récupération ou autre. C'est une compilation de ce qui existe déjà, avec des améliorations et les plans sont disponibles si vous voulez en construire une. 
+Concernant la harpe en elle même, la partie la plus fastidieuse du montage est le perçage de l'équerre égale avec des trous de 6mm tous les 25mm et le montage des 25 fils (bonne longueur, façonnage d'une boucle, noeuds. Le reste va tout seul. 
+Ayant eu des soucis de cours circuits par le passé, j'ai ajouté un microntroleur avec capteur de luminosité et d'humidité afin de couper le montage la nuit et lorsque l'humidité est trop forte. 
 
-**Profilés aluminium extrudé 2020 B-Type rainure 6**
-- 2x 1050mm
-- 2x 750mm
-- 1x 660mm
+Vous trouverez ci dessous les liens pour:
 
-**Equerre égale 20x20x2mm**
-- 1x 610mm
-
-**Fixation:**
-- 6x Équerres interne 20 B-Type rainure 6, M5
-- 2x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
-- 2x Vis DIN 912 M5x12
-
-**Impression 3D:**
-- 2x supports équerre égale
-- 2x capuchons haut
-- 4x capuchons bas
-- 6x coulisseaux circuit imprimé
-
-**Partie fils**
-- 1x PCB 600m 24 trous
-- 24x ressorts d'extension 5x10x0.5mm
-- 24x Embouts aiguille distributeur 18G
-- 1x Bobine de fil inox 0.3mm (fil à filer les cadres)
-
-**Partie électrique**
-- 1x Boîte de jonction IP55 minimum 115x115x60mm
-- 2x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
-- 2x Vis DIN 912 M5x12
-- 1x Module haute tension 4.2v --> 1200v
-- 1x Convertisseur de tension 12V --> 4.2V
-- 2x connecteurs WAGO 2 fils
-- Câble électrique 2x1.5mm2
-- Fer à braser et fil de soudure
-- Scotch isolant
-- Batterie de voiture
-
-## Bac de récupération
-
-**Impression 3D**
-- 2x flasques
-
-**Fixation:**
-- 4x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
-- 4x Vis DIN 912 M5x12
-
-**Divers**
-- 2x grilles à reine Nicot Dadant 10C
-- 10x colliers de serrage
-- 2x planches 610x200x3mm (bois, PVC, bakélite....) 
-
-## Option panneau solaire
-- 1x panneau solaire 10W
-- 1x chargeur solaire PWM ou mieu MPPT
-
-## Kit (seulement profilés aluminium et visserie) disponible en achat sur le site Motedis.fr en cliquant sur les liens suivants:
-
-**[Kit permettant de construire une harpe](https://www.motedis.fr/shop/create_offers_kit.php?oID=807587)**
-
-**[Kit permettant de construire trois harpes (optimisation des frais de port)](https://www.motedis.fr/shop/create_offers_kit.php?oID=807588)**
-
-Vous restez libre d'enlever du panier l'item "Idea fee". Cela est proposé par le site pour rénumérer la personne qui à préparé le kit. Il existe d'autres sites pour commander des profilés, je ne suis pas affilié et n'ai aucun intéret avec cette société. 
+- [Liste du materiel](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Materiel/Materiel.md)
+- [Fichier .STL pour impression 3D](https://github.com/Ratamuse/Harpe/tree/main/Harpe%20ruches/Fichiers%203d/harpe%20alu)
+- [Aide au montage](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Fichiers%203d/harpe%20alu/Construction.md)
+- [Fichiers nécessaires pour fabriquer le circuit imprimé de la harpe](https://github.com/Ratamuse/Harpe/tree/main/Harpe%20ruches/Fichier%20Kicad)
+- [Exemple de montage électrique](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Montage%20%C3%A9lectrique/Montage%20%C3%A9lectrique.jpg)
+- [Programme pour microcontroleur ESP32](https://github.com/Ratamuse/Harpe/tree/main/Harpe%20ruches/Code%20Arduino)
 
 **[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR) Cette harpe vous plait et est efficace. Payez moi un café! ;-) [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR)**
-
-
-
-
-
-
-
-
-

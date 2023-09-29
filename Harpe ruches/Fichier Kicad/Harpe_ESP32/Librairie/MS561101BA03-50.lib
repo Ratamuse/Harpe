@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MS561101BA03-50
+#
+DEF MS561101BA03-50 U 0 40 Y Y 1 L N
+F0 "U" -400 330 50 H V L BNN
+F1 "MS561101BA03-50" -400 -400 50 H V L BNN
+F2 "SON125P500X300X100-8N" 0 0 50 H I L BNN
+F3 "https://www.te.com/usa-en/product-MS561101BA03-50.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F4 "Compliant" 0 0 50 H I L BNN
+F5 "MS561101BA03-50" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 300 -400 -300 N
+P 2 0 0 10 -400 -300 400 -300 N
+P 2 0 0 10 400 -300 400 300 N
+P 2 0 0 10 400 300 -400 300 N
+X VDD 1 600 200 200 L 40 40 0 0 W 
+X GND 3 600 -200 200 L 40 40 0 0 W 
+X PS 2 -600 100 200 R 40 40 0 0 I 
+X ~CSB~ 4 -600 200 200 R 40 40 0 0 I 
+X ~CSB~ 5 -600 200 200 R 40 40 0 0 I 
+X SDO 6 600 0 200 L 40 40 0 0 O 
+X SDI/SDA 7 -600 -200 200 R 40 40 0 0 B 
+X SCLK 8 -600 0 200 R 40 40 0 0 I C
+ENDDRAW
+ENDDEF
+#
+# End Library

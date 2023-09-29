@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MBR230LSFT1G
+#/224954/187463/2.49/2/3/Diode
+DEF MBR230LSFT1G D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "MBR230LSFT1G" 450 100 50 H V L CNN
+F2 "SODFL3616X98N" 450 0 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/MBR230LSFT1-D.PDF" 450 -100 50 H I L CNN
+F4 "Diode Schottky 30V 2A SOD123FL ON Semiconductor MBR230LSFT1G Schottky Diode, 2A, 30V, 2-Pin SOD-123FL" 450 -200 50 H I L CNN "Description"
+F5 "0.98" 450 -300 50 H I L CNN "Height"
+F6 "ON Semiconductor" 450 -400 50 H I L CNN "Manufacturer_Name"
+F7 "MBR230LSFT1G" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-MBR230LSFT1G" 450 -600 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MBR230LSFT1G/?qs=Jh7l0IbPjid1ZBeNXVj%2FnA%3D%3D" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F10 "MBR230LSFT1G" 450 -800 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mbr230lsft1g/on-semiconductor" 450 -900 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library
