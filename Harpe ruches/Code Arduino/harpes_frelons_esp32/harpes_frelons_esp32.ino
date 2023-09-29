@@ -37,25 +37,25 @@ char errorMessage[256];
 #define harpe3 25
 #define harpe4 27
 
-#define uS_TO_S_FACTOR 1000000ULL  /* Conversion factor for micro seconds to seconds */
-#define TIME_TO_SLEEP  600        /* Time ESP32 will go to sleep (in seconds) */
+#define uS_TO_S_FACTOR 1000000ULL /* Conversion factor for micro seconds to seconds */
+#define TIME_TO_SLEEP 600         /* Time ESP32 will go to sleep (in seconds) */
 
 void setup() {
 
- Serial.begin(115200);
- Wire.begin(SDA_PIN, SCL_PIN);
- Wire1.begin(SDA_PIN1, SCL_PIN1);
-pinMode(harpe1, OUTPUT);
-digitalWrite(harpe1, LOW);
-pinMode(harpe2, OUTPUT);
-digitalWrite(harpe2, LOW);
-pinMode(harpe3, OUTPUT);
-digitalWrite(harpe3, LOW);
-pinMode(harpe4, OUTPUT);
-digitalWrite(harpe4, LOW);
+  Serial.begin(115200);
+  Wire.begin(SDA_PIN, SCL_PIN);
+  Wire1.begin(SDA_PIN1, SCL_PIN1);
+  pinMode(harpe1, OUTPUT);
+  digitalWrite(harpe1, LOW);
+  pinMode(harpe2, OUTPUT);
+  digitalWrite(harpe2, LOW);
+  pinMode(harpe3, OUTPUT);
+  digitalWrite(harpe3, LOW);
+  pinMode(harpe4, OUTPUT);
+  digitalWrite(harpe4, LOW);
 
 
-esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR);
+  esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR);
 
 
   /********************VEML7700******************************/
@@ -67,64 +67,61 @@ esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR);
   }
   Serial.println("Sensor found");
 
- /********************Sht4x******************************/
+  /********************Sht4x******************************/
 
-  
+
   sht4x.begin(Wire1);
-
 }
 
 void loop() {
 
-LUX();
-sht();
+  LUX();
+  sht();
 
- if (lux >= 50 && humidity0 <= 80 ) {
+  if (lux >= 20 && humidity0 <= 90) {
 
-digitalWrite(harpe1, HIGH);
-delay(1000);
-digitalWrite(harpe1, LOW);
-delay(100);
-digitalWrite(harpe2, HIGH);
-delay(1000);
-digitalWrite(harpe2, LOW);
-delay(100);
-digitalWrite(harpe3, HIGH);
-delay(1000);
-digitalWrite(harpe3, LOW);
-delay(100);
-digitalWrite(harpe4, HIGH);
-delay(1000);
-digitalWrite(harpe4, LOW);
-delay(100);
+    digitalWrite(harpe1, HIGH);
+    delay(1000);
+    digitalWrite(harpe1, LOW);
+    delay(100);
+    digitalWrite(harpe2, HIGH);
+    delay(1000);
+    digitalWrite(harpe2, LOW);
+    delay(100);
+    digitalWrite(harpe3, HIGH);
+    delay(1000);
+    digitalWrite(harpe3, LOW);
+    delay(100);
+    digitalWrite(harpe4, HIGH);
+    delay(1000);
+    digitalWrite(harpe4, LOW);
+    delay(100);
 
- }
+  }
 
- else {
+  else {
 
- Serial.println("Going to sleep now");
-  Serial.flush(); 
-  esp_deep_sleep_start();
-  Serial.println("This will never be printed");
- }
+    Serial.println("Going to sleep now");
+    Serial.flush();
+    esp_deep_sleep_start();
+    Serial.println("This will never be printed");
+  }
 }
 /****************************Intensité lumineuse en LUX***************************/
 
-void LUX()
-{
+void LUX() {
 
   lux = veml.readLux(VEML_LUX_AUTO);
-Serial.print(lux,2);
-Serial.println("lux");
+  Serial.print(lux, 2);
+  Serial.println("lux");
 }
 
 /****************************Valeur du capteur SHT41***************************/
 
 void sht() {
 
-  
-  error0 = sht4x.measureHighPrecision(temperature0, humidity0);  
- Serial.print(humidity0,2); 
- Serial.println("humidité");
-  
+
+  error0 = sht4x.measureHighPrecision(temperature0, humidity0);
+  Serial.print(humidity0, 2);
+  Serial.println("humidité");
 }
