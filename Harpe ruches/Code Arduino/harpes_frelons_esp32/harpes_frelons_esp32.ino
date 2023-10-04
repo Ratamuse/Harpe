@@ -28,14 +28,14 @@ char errorMessage[256];
 
 #define SDA_PIN 21
 #define SCL_PIN 22
-#define SDA_PIN1 17
-#define SCL_PIN1 16
+#define SDA_PIN1 27
+#define SCL_PIN1 26
 
 
-#define harpe1 26
-#define harpe2 32
-#define harpe3 25
-#define harpe4 27
+#define harpe1 17
+#define harpe2 16
+#define harpe3 18
+#define harpe4 19
 
 #define uS_TO_S_FACTOR 1000000ULL /* Conversion factor for micro seconds to seconds */
 #define TIME_TO_SLEEP 600         /* Time ESP32 will go to sleep (in seconds) */
@@ -78,24 +78,24 @@ void loop() {
   LUX();
   sht();
 
-  if (lux >= 20 && humidity0 <= 90) {
+  if (lux >= 15 && humidity0 <= 90) {
 
     digitalWrite(harpe1, HIGH);
-    delay(1000);
+    delay(2000);
     digitalWrite(harpe1, LOW);
     delay(100);
     digitalWrite(harpe2, HIGH);
-    delay(1000);
+    delay(2000);
     digitalWrite(harpe2, LOW);
     delay(100);
-    digitalWrite(harpe3, HIGH);
-    delay(1000);
-    digitalWrite(harpe3, LOW);
-    delay(100);
-    digitalWrite(harpe4, HIGH);
-    delay(1000);
-    digitalWrite(harpe4, LOW);
-    delay(100);
+    //digitalWrite(harpe3, HIGH);
+    //delay(1000);
+    //digitalWrite(harpe3, LOW);
+    //delay(100);
+    //digitalWrite(harpe4, HIGH);
+    //delay(1000);
+    //digitalWrite(harpe4, LOW);
+    //delay(100);
 
   }
 
