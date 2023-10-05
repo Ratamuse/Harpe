@@ -1,4 +1,4 @@
-21806936313496898
+21817113039937447
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53389,6 +53389,20 @@ Connector
 4
 4
 Empreintes
+1989764
+1989764-1
+Connector
+0
+4
+4
+Empreintes
+1990009
+1990009_1
+Connector
+0
+2
+2
+Empreintes
 BME680
 BME680
 Integrated Circuit
@@ -53508,6 +53522,13 @@ Logo Ratamuse petit
 0
 0
 Empreintes
+Logo harpe
+
+
+0
+0
+0
+Empreintes
 MAX17048G&plus_
 
 
@@ -53563,6 +53584,13 @@ QRCode
 0
 0
 0
+Empreintes
+R785010
+R-78xx-1.0
+Power Supply
+0
+3
+3
 Empreintes
 SHDR2W90P0X500_1X2_1060X980X1380P
 691216710002
@@ -53705,6 +53733,20 @@ SAM-M8Q SAM M8Q GPS U BLOX
 20
 Empreintes
 logo
+
+
+0
+0
+0
+Empreintes
+logo frelon
+
+
+0
+0
+0
+Empreintes
+logo frelon petit
 
 
 0
