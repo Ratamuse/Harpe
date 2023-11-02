@@ -1304,7 +1304,7 @@
     (property "Value" "Conn_01x04" (at 90.678 146.5653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Empreintes:1190297" (at 88.646 144.018 0)
+    (property "Footprint" "Empreintes:1862411" (at 88.646 144.018 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.646 144.018 0)
