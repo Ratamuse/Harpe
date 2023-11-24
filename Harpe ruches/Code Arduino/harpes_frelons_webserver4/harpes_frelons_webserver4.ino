@@ -77,42 +77,42 @@ void harpeTask(void* parameter) {
   while (true) {
     if (useHarpe1) {
       digitalWrite(harpe1, HIGH);
-      delay(customDelay);
+      delay(2000);
       Serial.println("Harpe 1");
       digitalWrite(harpe1, LOW);
       delay(100);
     }
     if (useHarpe2) {
       digitalWrite(harpe2, HIGH);
-      delay(customDelay);
+      delay(2000);
       Serial.println("Harpe 2");
       digitalWrite(harpe2, LOW);
       delay(100);
     }
     if (useHarpe3) {
       digitalWrite(harpe3, HIGH);
-      delay(customDelay);
+      delay(2000);
       Serial.println("Harpe 3");
       digitalWrite(harpe3, LOW);
       delay(100);
     }
     if (useHarpe4) {
       digitalWrite(harpe4, HIGH);
-      delay(customDelay);
+      delay(2000);
       Serial.println("Harpe 4");
       digitalWrite(harpe4, LOW);
       delay(100);
     }
     if (useHarpe5) {
       digitalWrite(harpe5, HIGH);
-      delay(customDelay);
+      delay(2000);
       Serial.println("Harpe 5");
       digitalWrite(harpe5, LOW);
       delay(100);
     }
     if (useHarpe6) {
       digitalWrite(harpe6, HIGH);
-      delay(customDelay);
+      delay(2000);
       Serial.println("Harpe 6");
       digitalWrite(harpe6, LOW);
       delay(100);
@@ -285,7 +285,7 @@ void pagehtml() {
   customDelay = preferences.getInt("customDelay", 1000);
 
   Wire.begin(SDA_PIN, SCL_PIN);
-  Wire1.begin(SDA_PIN1, SCL_PIN1);
+  
   /*********************VEML7700*******************************/
 
   if (!veml.begin()) {
@@ -298,14 +298,14 @@ void pagehtml() {
   /*********************Sht4x*******************************/
 
 
-  sht4x.begin(Wire1);
+  sht4x.begin(Wire);
 }
 
 void programme() {
 
   Serial.begin(115200);
   Wire.begin(SDA_PIN, SCL_PIN);
-  Wire1.begin(SDA_PIN1, SCL_PIN1);
+  
   pinMode(harpe1, OUTPUT);
   digitalWrite(harpe1, LOW);
   pinMode(harpe2, OUTPUT);
@@ -338,8 +338,8 @@ void programme() {
 
   if (!veml.begin()) {
     Serial.println("Sensor not found");
-    //while (1)
-      //;
+    while (1)
+    ;
      
   }
   Serial.println("Sensor found");
@@ -347,7 +347,7 @@ void programme() {
   /*********************Sht4x*******************************/
 
 
-  sht4x.begin(Wire1);
+  sht4x.begin(Wire);
 
 
 
