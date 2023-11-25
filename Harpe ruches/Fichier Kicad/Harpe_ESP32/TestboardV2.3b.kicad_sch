@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Testboard V2.3b")
+    (title "Harpes_ESP32b")
     (date "2021-12-11")
   )
 
