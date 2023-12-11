@@ -1,36 +1,16 @@
-## Testboard V2.2 ESP32
+## Carte d'alimentation jusqu'à six harpes, basée sur le module ESP-WROOM-32E:
 
-![This is an image](https://github.com/Ratamuse/Testboard_ESP32/blob/master/Pictures/TestboardV2.2_Kicad.jpg)
+![This is an image](https://github.com/Ratamuse/Testboard_ESP32/blob/master/Pictures/PCB.jpg)
 
 
-## Carte multi-usage basée sur le module ESP-WROOM-32E:
+La carte doit être alimenté par une batterie 12V. Elle permet d'alimenter de manière cyclique les 6 harpes afin d'économiser la batterie. 
+La carte est équipée de deux connecteurs permettant de brancher:
+* un capteur d'humidité SHT41 permettant de couper l'alimentation des harpes en cas de forte humidité.
+* un capteur de luminosité permettant de couper les harpes la nuit. 
 
-- Connecteur USB-C
+Les valeurs limites de luminosité, humidité, le nombre de harpes et le rapport cyclique d'alimentation sont modifiables via un serveurweb embarqué. 
+Pour y accéder il suffit d'appuyer deux secondes sur le bouton "WIFI" (sur la carte ou déporté). Le réseau "harpes" apparaitra comme point d'accès wifi. Le mot de passe pour s'y connecter est 123456789 
+Une fois les valeurs modifiées, la carte redemarrera avec les nouveaux paramètres en appuyant sur le bouton "Enregistrer".
 
-- Chargeur solaire MPPT basé sur la puce CN3791:  http://www.consonance-elec.com/pdf/datasheet/DSE-CN3791.pdf
-
-- Connecteur batterie JST-PH 2mm avec protection (surcharge ou décharge profonde)
-
-- Connecteur batterie JST-PH 2mm sans protection (pour batterie déjà protégée)
-
-- Bouton on/off LTC2954 avec interrupt sur µP (On/Off de l'ESP32 et GPIO de l'interrupt utilisable pour des actions): https://www.analog.com/media/en/technical-documentation/data-sheets/2954fb.pdf
-
-- Capteur température/humidité SHT41: https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT4x_Datasheet.pdf
-- 10 optocoupleurs pour interrupteurs à contacts secs (pour domotiser volets roulants, télécommandes diverses) ou au choix 10 GPIO dispo avec au choix alim 3.3V ou "5V" (Vbat (entre 3.2 et 4.2V) ou Vbus (5V)) pour ajouter des modules.
-
-- Chargeur Li-io/Li-Po MCP73831 via port USB-C
-
-- Connecteur JST-PH 2mm (1x4) I2C
-
-- Connecteur JST-PH 2mm (1x4) sur 2 GPIO + choix 3.3V ou 5V
-
-- Connecteur JST-PH 2mm (1x3) sur 1 GPIO (que j'utilise pour piloter des leds neopixel)
-
-Inspiration des travaux de Lilygo, Waveshare, GreatScoot.
-
-Motivation et champs des possibles donnés par P. Demerliac et sa chaine Youtube Cyrob: https://www.youtube.com/channel/UC5QPFDZ3Y4ylkkGJc6Y1OOA  
-
-Initiation à la bricole par P. W. Trainer
-
-Prochaine étape, améliorer le hardaware du GNUVario-E
+Les modules haute tension des harpes consommant en permanence 0.1A, cette manière de les alimenter permet de n'utiliser qu'une petite batterie de 12V 7AH et un panneau solaire de 10W. Un régulateur de charge solaire PWM de 12V 5 ou 10A sera nécessaire pour recharger la batterie.  
 
