@@ -11123,7 +11123,7 @@
 
   (footprint "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" (layer "B.Cu")
     (tstamp 00000000-0000-0000-0000-000061b624a4)
-    (at 108.87 92.64 180)
+    (at 107.21 89.12 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -12308,7 +12308,7 @@
 
   (footprint "Symbol:WEEE-Logo_4.2x6mm_SilkScreen" (layer "B.Cu")
     (tstamp 00000000-0000-0000-0000-000061b62541)
-    (at 102.27 92.27 180)
+    (at 100.84 88.91 180)
     (descr "Waste Electrical and Electronic Equipment Directive")
     (tags "Logo WEEE")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -12855,7 +12855,7 @@
 
   (footprint "Empreintes:logo frelon" (layer "B.Cu")
     (tstamp 1c0aea8a-2057-4f28-9eb9-cadf4566b9d9)
-    (at 129.14 103.12 180)
+    (at 127.77 103.09 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
@@ -18266,7 +18266,7 @@
   (gr_text "PWR LED" (at 122.43 116.41) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-000061110732)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify mirror))
   )
-  (gr_text "By Ratamuse" (at 111.5 165.34) (layer "B.SilkS") (tstamp 58c8914f-4c96-4e2f-9afc-9671a39786cb)
+  (gr_text "By Ratamuse" (at 109.78 165.34) (layer "B.SilkS") (tstamp 58c8914f-4c96-4e2f-9afc-9671a39786cb)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "RST" (at 129.3 104.31) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005f855d93)
