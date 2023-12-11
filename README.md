@@ -12,7 +12,7 @@ Vous trouverez ci dessous les liens pour:
 - [Fichier .STL pour impression 3D](https://github.com/Ratamuse/Harpe/tree/main/Harpe%20ruches/Fichiers%203d/harpe%20alu)
 - [Aide au montage](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Montage/Construction.md)
 - [Fichiers nécessaires pour fabriquer le circuit imprimé de la harpe](https://github.com/Ratamuse/Harpe/tree/main/Harpe%20ruches/Fichier%20Kicad)
-- [Exemple de montage électrique](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Montage%20%C3%A9lectrique/Montage%20%C3%A9lectrique.jpg)
+- [Exemple de montage électrique](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Fichier%20Kicad/Harpe_ESP32/PCB.md)
 - [Programme pour microcontroleur ESP32](https://github.com/Ratamuse/Harpe/tree/main/Harpe%20ruches/Code%20Arduino)
 
 **[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR) Cette harpe vous plait et est efficace. Payez moi un café! ;-) [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/GNUVarioE?country.x=FR&locale.x=fr_FR)**
