@@ -1,9 +1,10 @@
-## Carte d'alimentation jusqu'à six harpes, basée sur le module ESP-WROOM-32E:
+# Carte d'alimentation jusqu'à six harpes, basée sur le module ESP-WROOM-32E:
 
 ![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Fichier%20Kicad/Harpe_ESP32/Pictures/PCB.jpg)
 
 
-La carte doit être alimenté par une batterie 12V. Elle permet d'alimenter de manière cyclique les 6 harpes afin d'économiser la batterie. 
+
+La carte doit être alimentée par une batterie 12V. Elle permet d'alimenter de manière cyclique jusqu'à six harpes afin d'économiser de l'énergie et moins soliciter les modules haute tension. 
 La carte est équipée de deux connecteurs permettant de brancher:
 * un capteur d'humidité SHT41 permettant de couper l'alimentation des harpes en cas de forte humidité.
 * un capteur de luminosité permettant de couper les harpes la nuit. 
