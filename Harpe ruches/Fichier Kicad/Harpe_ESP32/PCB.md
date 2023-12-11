@@ -1,6 +1,6 @@
 ## Carte d'alimentation jusqu'à six harpes, basée sur le module ESP-WROOM-32E:
 
-![This is an image](https://github.com/Ratamuse/Testboard_ESP32/blob/master/Pictures/PCB.jpg)
+![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Fichier%20Kicad/Harpe_ESP32/Pictures/PCB.jpg)
 
 
 La carte doit être alimenté par une batterie 12V. Elle permet d'alimenter de manière cyclique les 6 harpes afin d'économiser la batterie. 
