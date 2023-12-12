@@ -1,4 +1,4 @@
-# Carte d'alimentation jusqu'à six harpes, basée sur le module ESP-WROOM-32E:
+# Carte d'alimentation jusqu'à six harpes:
 
 ![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Fichier%20Kicad/Harpe_ESP32/Pictures/PCB.jpg)
 
