@@ -11,11 +11,11 @@
 ![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe5.JPG)
 
 3/ Montez le bac de récupération en enfoncant les deux profilés de 610mm dans les encoches des flasques. Puis à l'aide de coliers en plastique fixez une des grilles à reine dans une flasque puis faites de même avec l'autre grille à reine et l'autre flasque. Utilisez d'autres coliers pour aligner et maintenir en place les deux grilles.
-   Vissez les vis et écrous lourds sans les serrer pour faciliter la mise en place dans les profilés de 1050mm. 
+   Vissez les vis et tasseaux lourds sans les serrer pour faciliter la mise en place dans les profilés de 1050mm. 
   
 ![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe3.JPG)
 
-4/ Percez 2 trous à l'arrière de la boîte de jonction afin de fixer les vis et écrous lourds. Glissez la boîte de jonction sur le profilé de 1050mm coté trous de connexion électrique du circuit imprimé.
+4/ Percez 2 trous à l'arrière de la boîte de jonction afin de fixer les vis et tasseaux lourds. Glissez la boîte de jonction sur le profilé de 1050mm coté trous de connexion électrique du circuit imprimé.
 
 ![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe9.JPG)  
 
