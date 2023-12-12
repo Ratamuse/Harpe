@@ -46,10 +46,7 @@ Une petite vidéo vallant mieux qu'un long discours:
 
 
 
-
-
-
-
+![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Dimension%20harpe.pdf)
 
 
 
