@@ -1,5 +1,6 @@
 # Assemblage de la harpe
 
+![Dimensions](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Dimension%20harpe.pdf)
 
 1/ Commencez par insérer les 6 coulisseaux supportant le circuit imprimé dans le profilé de 660mm et les 6 coulisseaux supportant le cicuit imprimé dans le profilé de 620mm.
 
@@ -46,7 +47,7 @@ Une petite vidéo vallant mieux qu'un long discours:
 
 
 
-![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Dimension%20harpe.pdf)
+![Dimension de la harpe](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Dimension%20harpe.pdf)
 
 
 
