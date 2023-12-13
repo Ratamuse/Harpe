@@ -15,3 +15,4 @@ Une fois les valeurs modifiées, la carte redemarrera avec les nouveaux paramèt
 
 Les modules haute tension des harpes consommant en permanence 0.1A, cette manière de les alimenter permet de n'utiliser qu'une petite batterie de 12V 7AH et un panneau solaire de 10W. Un régulateur de charge solaire PWM de 12V, 5 ou 10A sera nécessaire pour recharger la batterie.  
 
+![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Montage%20%C3%A9lectrique/Exemple%20alimentation%20harpe.jpg)
