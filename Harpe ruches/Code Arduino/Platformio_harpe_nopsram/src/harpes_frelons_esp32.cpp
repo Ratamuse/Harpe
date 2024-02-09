@@ -271,6 +271,7 @@ void loop() {
     LUX();
     sht();
 
+if (lux >= lux_min && humidity0 <= hum_max) {
     // Les blocs de code suivants sont conditionnés par l'état des cases à cocher
     if (activateHarpe1) {
       digitalWrite(harpe1, HIGH);
@@ -320,4 +321,5 @@ void loop() {
       Serial.println("Harpe6");
     }
   }
+}
 }

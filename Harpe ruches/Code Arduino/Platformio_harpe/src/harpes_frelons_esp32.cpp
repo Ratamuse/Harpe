@@ -1,8 +1,8 @@
 //####################### Ratamuse #######################/
 //################## ratamuse.pf@googlemail.com ##################/
-//######################### Septembre 2023 ######################/
+//######################### Janvier 2024 ######################/
 //#################### ESP32 Devboard 3.3V  ####################/
-//######################## Version 1.0.0 #######################/
+//######################## Version 1.0.1 #######################/
 
 
 #include <Arduino.h>
@@ -103,15 +103,16 @@ void loadPreferences() {
   preferences.end();
 }
 
-void handleRoot() {
-  String html = "<html><head><meta name='viewport' content='width=device-width, initial-scale=1'><style>body {background-color: #fffacd; color: #000;} h1 {color: #daa520; text-align: center;} form {background-color: #f0e68c; padding: 20px; border-radius: 15px; max-width: 90%; margin: auto;} input[type=submit] {background-color: #daa520; color: white; border: none; padding: 10px 20px; text-decoration: none; margin: 4px 2px; cursor: pointer; border-radius: 4px;}</style></head><body>";
-  html += "<h1>Gestion des harpes</h1>"; // Titre ajouté ici
+
+  void handleRoot() {
+  String html = "<html><head><meta name='viewport' content='width=device-width, initial-scale=1'><style>body {background-color: #fffacd; color: #000;} h1 {color: #daa520; text-align: center;} form {background-color: #f0e68c; padding: 20px; border-radius: 15px; max-width: 90%; margin: auto;} .input-container {display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;} input[type=number] {width: 100px;} input[type=submit] {background-color: #daa520; color: white; border: none; padding: 10px 20px; text-decoration: none; margin: 4px 2px; cursor: pointer; border-radius: 4px;}</style></head><body>";
+  html += "<h1>Gestion des harpes</h1>";
   html += "<h2>Luminosit&eacute;: " + String(lux, 2) + " lux</h2>";
-  html += "<h2>Humidit&eacute;: " + String(humidity0, 2) + "</h2>";
+  html += "<h2>Humidit&eacute;: " + String(humidity0, 2) + " %</h2>";
   html += "<form action='/save' method='post'>";
-  html += "Humidit&eacute; Max: <input type='number' step='0.1' name='hum_max' value='" + String(hum_max) + "'><br>";
-  html += "Luminosit&eacute; Min: <input type='number' step='0.1' name='lux_min' value='" + String(lux_min) + "'><br>";
-  html += "Temps d'alim harpe : <input type='number' name='delayTime' value='" + String(delayTime) + "'><br>"; // Nouveau champ de formulaire pour delayTime
+  html += "<div class='input-container'>Humidit&eacute; Max: <input type='number' step='0.1' name='hum_max' value='" + String(hum_max) + "'></div>";
+  html += "<div class='input-container'>Luminosit&eacute; Min: <input type='number' step='0.1' name='lux_min' value='" + String(lux_min) + "'></div>";
+  html += "<div class='input-container'>Temps d'alim harpe : <input type='number' name='delayTime' value='" + String(delayTime) + "'></div>";
   html += "<label for='harpe1'>Harpe 1</label> <input type='checkbox' name='harpe1'";
   html += activateHarpe1 ? " checked" : "";
   html += "><br>";
@@ -133,6 +134,7 @@ void handleRoot() {
   html += "<input type='submit' value='Sauvegarder'>";
   html += "</form></body></html>";
   server.send(200, "text/html", html);
+
 }
 
 
@@ -174,6 +176,7 @@ void pagehtml() {
   Serial.println("Web server started");
 
   Wire.begin(SDA_PIN, SCL_PIN);
+  Wire.setClock(100000);
   sht4x.begin(Wire, SHT40_I2C_ADDR_44);
 
   if (!veml.begin()) {
@@ -186,6 +189,7 @@ void pagehtml() {
 void programme() {
   Serial.begin(115200);
   Wire.begin(SDA_PIN, SCL_PIN);
+  Wire.setClock(100000);
   pinMode(harpe1, OUTPUT);
   digitalWrite(harpe1, LOW);
   pinMode(harpe2, OUTPUT);
@@ -253,6 +257,7 @@ void loop() {
     LUX();
     sht();
 
+if (lux >= lux_min && humidity0 <= hum_max) {
     // Les blocs de code suivants sont conditionnés par l'état des cases à cocher
     if (activateHarpe1) {
       digitalWrite(harpe1, HIGH);
@@ -300,6 +305,13 @@ void loop() {
       digitalWrite(harpe6, LOW);
       delay(100);
       Serial.println("Harpe6");
+    }
+        }
+         else {
+      Serial.println("Going to sleep now");
+      Serial.flush();
+      esp_deep_sleep_start();
+      Serial.println("This will never be printed");
     }
   }
 }
