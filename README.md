@@ -2,7 +2,7 @@
 
 ![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe10.JPG)
 
-La construction de cette harpe fait suite à différents essais effectués les années passées. Montage en tubes PVC, armature en bois, bac de noyade. Ces solutions, certes peu chères, ne me satisfaisait pas. Manque de rigidité, vieillessement prématuré, problème de cours circuits, noyades d'insectes et d'abeilles en pagaille etc etc. 
+La construction de cette harpe fait suite à différents essais effectués les années passées. Montage en tubes PVC, armature en bois, bac de noyade. Ces solutions, certes peu chères, ne me satisfaisaient pas. Manque de rigidité, vieillessement prématuré, problème de cours circuits, noyades d'insectes et d'abeilles en pagaille etc etc. 
 Ce montage n'est pas "LOW COST" et ne peux rivaliser avec les montages fait à partir de tréteaux, tuyaux de récupération ou autre. C'est une compilation de ce qui existe déjà, avec des améliorations et les plans sont disponibles si vous voulez en construire une.  
 Ayant eu des soucis de cours circuits par le passé, j'ai ajouté un microntroleur avec capteur de luminosité et d'humidité afin de couper le montage la nuit et lorsque l'humidité est trop forte. 
 
