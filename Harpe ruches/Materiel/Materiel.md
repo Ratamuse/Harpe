@@ -20,10 +20,13 @@
 **Impression 3D:**
 - 2x capuchons haut
 - 4x capuchons bas
-- 12x coulisseaux circuit imprimé
+- 6x coulisseaux circuit imprimé
+- 6x coulisseaux circuit imprimé long
+- 1x boîte de jonction (si pas boîte du commerce)
 
 **Partie fils**
-- 2x circuits imprimés 600mm 24 trous
+- 1x circuits imprimés 600mm 24 trous 4 couches
+- 1x circuits imprimés 600mm 24 trous crochets
 - 24x ressorts d'extension 5x10x0.5mm
 - 1x Bobine de fil inox 0.3mm (fil à filer les cadres)
 
