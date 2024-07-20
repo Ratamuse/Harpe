@@ -7,7 +7,7 @@
 
 **Profilés aluminium extrudé 2020 B-Type rainure 6**
 - 2x 1050mm
-- 2x 750mm
+- 2x 500mm
 - 1x 660mm
 - 1x 620mm
 
@@ -20,8 +20,8 @@
 **Impression 3D:**
 - 2x capuchons haut
 - 4x capuchons bas
-- 6x coulisseaux circuit imprimé
-- 6x coulisseaux circuit imprimé long
+- 6x coulisseaux circuit imprimé haut
+- 6x coulisseaux longs circuit imprimé bas
 - 1x boîte de jonction (si pas boîte du commerce)
 
 **Partie fils**
@@ -41,6 +41,9 @@
 - Batterie 12 volts
 
 ## Bac de récupération
+
+**Profilés aluminium extrudé 2020 B-Type rainure 6**
+- 2x 500mm
 
 **Impression 3D**
 - 1x flasque
