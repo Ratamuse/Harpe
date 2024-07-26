@@ -23,7 +23,7 @@
 
 5/ Glissez le bac de récupération entre les deux montants de 1050mm et serrez les vis au niveau désiré. 
 
-   Pour les pieds de la harpe, fixez les deux profilés de 750mm à l'aide des 4 équerres restantes. Enfoncez les 4 capuchons au bout des profilés de 750mm. 
+   Pour les pieds de la harpe, fixez les deux profilés de 500mm à l'aide des 4 équerres restantes. Enfoncez les 4 capuchons au bout des profilés. 
 
  
 ![This is an image](https://github.com/Ratamuse/Harpe/blob/main/Harpe%20ruches/Images/Harpe4.JPG)  
@@ -42,8 +42,8 @@
 
 # Fabrication des fils
 
-Sur une planche de bois, plantez deux clous (sans tête) à une distance correspondant à la longueur de fil souhaitée. Puis servez vous en pour créer des boucles à distance constante. 
-Une petite vidéo vallant mieux qu'un long discours:
+Sur une planche de bois, plantez deux clous (sans tête) à une distance correspondant à la longueur de fil souhaitée. Puis servez vous en pour créer des boucles à distance constante.  
+
 
 
 
