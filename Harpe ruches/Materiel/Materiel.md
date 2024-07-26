@@ -14,7 +14,7 @@
 
 **Fixation:**
 - 8x Équerres interne 20 B-Type rainure 6, M5
-- 2x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
+- 2x tasseaux lourds, B-Type rainure 6, M5
 - 2x Vis DIN 912 M5x12
 
 **Impression 3D:**
@@ -43,14 +43,14 @@
 ## Bac de récupération
 
 **Profilés aluminium extrudé 2020 B-Type rainure 6**
-- 2x 500mm
+- 2x 610mm
 
 **Impression 3D**
 - 1x flasque
 - 1x flasque "bouteille"
 
 **Fixation:**
-- 4x tasseaux lourds acier inoxydable, B-Type rainure 6, M5
+- 4x tasseaux lourds, B-Type rainure 6, M5
 - 4x Vis DIN 912 M5x12
 
 **Divers**
@@ -65,11 +65,11 @@
 - 1x chargeur solaire PWM ou mieux MPPT
 - 1x batterie 12V 7AH
 
-## Kit (seulement profilés aluminium et visserie) disponible en achat sur le site Motedis.fr en cliquant sur les liens suivants:
+## Kit (seulement profilés aluminium et visserie) disponible en achat sur le site Motedis.fr en cliquant sur le lien suivant:
 
 **[Kit permettant de construire une harpe](https://www.motedis.fr/shop/create_offers_kit.php?oID=809841)**
 
-
+Cliquez sur "ok" fenêtre "Langue/Paramètres régionaux" puis allez sur panier. Vous pouvez choisir le nombre de kits à commander en haut de la liste. 
 Vous restez libre d'enlever du panier l'item "Idea fee". Cela est proposé par le site pour rénumérer la personne qui à préparé le kit. Il existe d'autres sites pour commander des profilés, je ne suis pas affilié et n'ai aucun intéret avec cette société. 
 
 
