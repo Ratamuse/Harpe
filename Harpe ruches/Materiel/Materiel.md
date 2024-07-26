@@ -67,9 +67,8 @@
 
 ## Kit (seulement profilés aluminium et visserie) disponible en achat sur le site Motedis.fr en cliquant sur les liens suivants:
 
-**[Kit permettant de construire une harpe](https://www.motedis.fr/shop/create_offers_kit.php?oID=808144)**
+**[Kit permettant de construire une harpe](https://www.motedis.fr/shop/create_offers_kit.php?oID=809841)**
 
-**[Kit permettant de construire trois harpes (optimisation des frais de port)](https://www.motedis.fr/shop/create_offers_kit.php?oID=808143)**
 
 Vous restez libre d'enlever du panier l'item "Idea fee". Cela est proposé par le site pour rénumérer la personne qui à préparé le kit. Il existe d'autres sites pour commander des profilés, je ne suis pas affilié et n'ai aucun intéret avec cette société. 
 
